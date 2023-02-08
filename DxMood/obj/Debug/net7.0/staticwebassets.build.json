@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "wPXcI4EYyQzV3D75p4KmjEvP777nHCP+vkTbpzcKSK0=",
+  "Source": "DxMood",
+  "BasePath": "_content/DxMood",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DxMood/wwwroot",
+      "Source": "DxMood",
+      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/app.js",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.js"
+    },
+    {
+      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/medical-case.png",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "imgs/medical-case.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imgs/medical-case.png"
+    },
+    {
+      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/index.html",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/styles.css",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    }
+  ]
+}
