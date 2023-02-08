@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxMood", "DxMood.csproj", "{845C8977-DD40-4E3E-851E-B54A32AA54D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{845C8977-DD40-4E3E-851E-B54A32AA54D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845C8977-DD40-4E3E-851E-B54A32AA54D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845C8977-DD40-4E3E-851E-B54A32AA54D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845C8977-DD40-4E3E-851E-B54A32AA54D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ED6B616-9C7D-49B0-9AD3-0E322FFBEB5A}
+	EndGlobalSection
+EndGlobal
