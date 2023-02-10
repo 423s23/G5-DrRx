@@ -1,0 +1,49 @@
+/*Reset CSS*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: acumin-pro, sans-serif;
+}
+
+/*Define color scheme*/
+:root {
+    --header-color: #181818;
+    --main-color: #212121;
+    --footer-color: #454545;
+}
+
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header,
+main,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    flex: 1;
+    background-color: var(--header-color);
+}
+
+main {
+    flex: 4;
+    background-color: var(--main-color);
+}
+
+footer {
+    flex: 1;
+    background-color: var(--footer-color);
+}
+
+.header-image {
+    margin-left: 16px;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/app.js",
+      "PackagePath": "staticwebassets/app.js"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/medical-case.png",
+      "PackagePath": "staticwebassets/imgs/medical-case.png"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/styles.css",
+      "PackagePath": "staticwebassets/styles.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.DxMood.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.DxMood.props",
+      "PackagePath": "build\\DxMood.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.DxMood.props",
+      "PackagePath": "buildMultiTargeting\\DxMood.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.DxMood.props",
+      "PackagePath": "buildTransitive\\DxMood.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
