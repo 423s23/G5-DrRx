@@ -20,4 +20,3 @@ All you need to install for the project to work is the [.NET framework](https://
 
 - wwwroot: Static Frontend Code
 - Controllers: C# Backend Code
-- Models/Data: Schema For Data
