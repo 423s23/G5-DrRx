@@ -9,7 +9,7 @@ All you need to install for the project to work is the [.NET framework](https://
     
 ## Clone
 
-    $ git clone https://underwoodbrady-admin@bitbucket.org/esof423-drrx-bitk/dxmood-bitk.git
+    $ git clone https://[LASTNAME][FIRSTNAME]-admin@bitbucket.org/esof423-drrx-bitk/dxmood-bitk.git
 
 ## Start
 
