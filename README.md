@@ -5,8 +5,7 @@ Built with a C# .NET backend
 
 ## Install
 
-All you need to install for the project to work is the .NET framework
-[a link](https://dotnet.microsoft.com/en-us/download)
+All you need to install for the project to work is the .NET framework [.NET framework](https://dotnet.microsoft.com/en-us/download)
     
 ## Clone
 
