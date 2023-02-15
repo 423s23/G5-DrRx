@@ -1,29 +1,22 @@
-# README #
+# DxMood
+A diagnosis assistance and recording tool for doctors. 
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Built with a C# .NET backend
 
-### What is this repository for? ###
+## Install
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+All you need to install for the project to work is the [.NET framework](https://dotnet.microsoft.com/en-us/download)
+    
+## Clone
 
-### How do I get set up? ###
+    $ git clone https://underwoodbrady-admin@bitbucket.org/esof423-drrx-bitk/dxmood-bitk.git
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Start
 
-### Contribution guidelines ###
+    $ cd DxMood
+    $ dotnet run
+    
+## File Structure
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+- wwwroot: Static Frontend Code
+- Controllers: C# Backend Code
