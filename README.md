@@ -16,3 +16,8 @@ All you need to install for the project to work is the [.NET framework](https://
     $ cd DxMood
     $ dotnet run
     
+## File Structure
+
+- wwwroot: Static Frontend Code
+- Controllers: C# Backend Code
+- Models/Data: Schema For Data
