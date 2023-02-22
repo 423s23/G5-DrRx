@@ -48,5 +48,5 @@ Thumbs.db
 *.mov
 *.wmv
 
-bin/**
-obj/**
+DxMood/bin/**
+DxMood/obj/**
