@@ -32,3 +32,4 @@
 /Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.genruntimeconfig.cache
 /Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/obj/Debug/net7.0/ref/DxMood.dll
 /Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/DxMood.staticwebassets.runtime.json
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/Swashbuckle.AspNetCore.Annotations.dll

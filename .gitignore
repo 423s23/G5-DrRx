@@ -48,3 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Bin and Obj directories
+**/bin
+**/obj
