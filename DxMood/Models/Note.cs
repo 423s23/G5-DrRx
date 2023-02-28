@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IO.Swagger.Models
 { 
@@ -25,6 +26,13 @@ namespace IO.Swagger.Models
     [DataContract]
     public partial class Note : IEquatable<Note>
     { 
+        /// <summary>
+        /// Gets or Sets Id
+        /// </summary>
+
+        [DataMember(Name="id")]
+        public Guid Id { get; set; }
+
         /// <summary>
         /// Gets or Sets Content
         /// </summary>
@@ -38,6 +46,12 @@ namespace IO.Swagger.Models
 
         [DataMember(Name="date")]
         public DateTime Date { get; set; }
+
+        [DataMember(Name="resultId")]
+        public Guid? ResultId { get; set; }
+
+        [ForeignKey("ResultId")]
+        public Result? Result { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

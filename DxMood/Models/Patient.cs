@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IO.Swagger.Models
 { 
@@ -58,7 +59,10 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="doctorId")]
-        public string DoctorId { get; set; }
+        public Guid DoctorId { get; set; }
+
+        [ForeignKey("DoctorId")]
+        public Doctor Doctor { get; set; }
 
         /// <summary>
         /// Gets or Sets Results
@@ -69,6 +73,7 @@ namespace IO.Swagger.Models
 
         [DataMember(Name="notes")]
         public List<Note>? Notes { get; set; }
+
 
         /// <summary>
         /// Returns the string presentation of the object

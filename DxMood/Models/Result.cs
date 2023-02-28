@@ -26,6 +26,12 @@ namespace IO.Swagger.Models
     public partial class Result : IEquatable<Result>
     { 
         /// <summary>
+        /// Gets or Sets Id
+        /// </summary>
+
+        [DataMember(Name="id")]
+        public Guid Id { get; set; }
+        /// <summary>
         /// Gets or Sets Phq9
         /// </summary>
 
@@ -75,11 +81,11 @@ namespace IO.Swagger.Models
         public string? ResultGenerated { get; set; }
 
         /// <summary>
-        /// Gets or Sets Note
+        /// Gets or Sets Notes
         /// </summary>
 
-        [DataMember(Name="note")]
-        public Note? Note { get; set; }
+        [DataMember(Name="Notes")]
+        public List<Note> Notes { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -96,7 +102,7 @@ namespace IO.Swagger.Models
             sb.Append("  Diagnosis: ").Append(Diagnosis).Append("\n");
             sb.Append("  RecommendedMedication: ").Append(RecommendedMedication).Append("\n");
             sb.Append("  ResultGenerated: ").Append(ResultGenerated).Append("\n");
-            sb.Append("  Note: ").Append(Note).Append("\n");
+            sb.Append("  Notes: ").Append(Notes).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -160,9 +166,9 @@ namespace IO.Swagger.Models
                     ResultGenerated.Equals(other.ResultGenerated)
                 ) && 
                 (
-                    Note == other.Note ||
-                    Note != null &&
-                    Note.Equals(other.Note)
+                    Notes == other.Notes ||
+                    Notes != null &&
+                    Notes.Equals(other.Notes)
                 );
         }
 
@@ -190,8 +196,8 @@ namespace IO.Swagger.Models
                     hashCode = hashCode * 59 + RecommendedMedication.GetHashCode();
                     if (ResultGenerated != null)
                     hashCode = hashCode * 59 + ResultGenerated.GetHashCode();
-                    if (Note != null)
-                    hashCode = hashCode * 59 + Note.GetHashCode();
+                    if (Notes != null)
+                    hashCode = hashCode * 59 + Notes.GetHashCode();
                 return hashCode;
             }
         }
