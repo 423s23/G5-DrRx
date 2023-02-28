@@ -30,14 +30,14 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="content")]
-        public string Content { get; set; }
+        public string? Content { get; set; }
 
         /// <summary>
         /// Gets or Sets Date
         /// </summary>
 
         [DataMember(Name="date")]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

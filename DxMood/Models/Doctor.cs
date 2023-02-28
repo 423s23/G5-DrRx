@@ -30,7 +30,7 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="id")]
-        public string Id { get; set; }
+        public Guid Id { get; set; }
 
         /// <summary>
         /// Gets or Sets LastName
@@ -65,7 +65,7 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="patients")]
-        public List<Patient> Patients { get; set; }
+        public List<Patient>? Patients { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

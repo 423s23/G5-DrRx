@@ -58,28 +58,28 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="diagnosis")]
-        public string Diagnosis { get; set; }
+        public string? Diagnosis { get; set; }
 
         /// <summary>
         /// Gets or Sets RecommendedMedication
         /// </summary>
 
         [DataMember(Name="recommendedMedication")]
-        public string RecommendedMedication { get; set; }
+        public string? RecommendedMedication { get; set; }
 
         /// <summary>
         /// Gets or Sets ResultGenerated
         /// </summary>
 
         [DataMember(Name="resultGenerated")]
-        public string ResultGenerated { get; set; }
+        public string? ResultGenerated { get; set; }
 
         /// <summary>
         /// Gets or Sets Note
         /// </summary>
 
         [DataMember(Name="note")]
-        public Note Note { get; set; }
+        public Note? Note { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object

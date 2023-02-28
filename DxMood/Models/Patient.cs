@@ -30,28 +30,28 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="id")]
-        public string Id { get; set; }
+        public Guid Id { get; set; }
 
         /// <summary>
         /// Gets or Sets LastName
         /// </summary>
 
         [DataMember(Name="lastName")]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         /// <summary>
         /// Gets or Sets FirstName
         /// </summary>
 
         [DataMember(Name="firstName")]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         /// <summary>
         /// Gets or Sets DateOfBirth
         /// </summary>
 
         [DataMember(Name="dateOfBirth")]
-        public string DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         /// <summary>
         /// Gets or Sets DoctorId
@@ -65,7 +65,10 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="results")]
-        public List<Result> Results { get; set; }
+        public List<Result>? Results { get; set; }
+
+        [DataMember(Name="notes")]
+        public List<Note>? Notes { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
