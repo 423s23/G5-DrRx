@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
 
 namespace IO.Swagger.Models
 { 
@@ -35,37 +36,26 @@ namespace IO.Swagger.Models
         /// <summary>
         /// Gets or Sets LastName
         /// </summary>
-
         [DataMember(Name="lastName")]
         public string LastName { get; set; }
 
         /// <summary>
         /// Gets or Sets FirstName
         /// </summary>
-
         [DataMember(Name="firstName")]
         public string FirstName { get; set; }
 
         /// <summary>
         /// Gets or Sets UserName
         /// </summary>
-
         [DataMember(Name="userName")]
         public string UserName { get; set; }
 
         /// <summary>
         /// Gets or Sets Password
         /// </summary>
-
         [DataMember(Name="password")]
         public string Password { get; set; }
-
-        /// <summary>
-        /// Gets or Sets Patients
-        /// </summary>
-
-        [DataMember(Name="patients")]
-        public List<Patient>? Patients { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -80,9 +70,17 @@ namespace IO.Swagger.Models
             sb.Append("  FirstName: ").Append(FirstName).Append("\n");
             sb.Append("  UserName: ").Append(UserName).Append("\n");
             sb.Append("  Password: ").Append(Password).Append("\n");
-            sb.Append("  Patients: ").Append(Patients).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
+        }
+
+        /// <summary>
+        /// Returns the JSON string presentation of the object
+        /// </summary>
+        /// <returns>JSON string presentation of the object</returns>
+        public string ToJson()
+        {
+            return JsonConvert.SerializeObject(this, Formatting.Indented);
         }
 
         /// <summary>
@@ -132,11 +130,6 @@ namespace IO.Swagger.Models
                     Password == other.Password ||
                     Password != null &&
                     Password.Equals(other.Password)
-                ) && 
-                (
-                    Patients == other.Patients ||
-                    Patients != null &&
-                    Patients.SequenceEqual(other.Patients)
                 );
         }
 
@@ -160,8 +153,6 @@ namespace IO.Swagger.Models
                     hashCode = hashCode * 59 + UserName.GetHashCode();
                     if (Password != null)
                     hashCode = hashCode * 59 + Password.GetHashCode();
-                    if (Patients != null)
-                    hashCode = hashCode * 59 + Patients.GetHashCode();
                 return hashCode;
             }
         }

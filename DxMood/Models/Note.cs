@@ -16,7 +16,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
-using System.ComponentModel.DataAnnotations.Schema;
+using Newtonsoft.Json;
 
 namespace IO.Swagger.Models
 { 
@@ -38,7 +38,7 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="content")]
-        public string? Content { get; set; }
+        public string Content { get; set; }
 
         /// <summary>
         /// Gets or Sets Date
@@ -47,11 +47,19 @@ namespace IO.Swagger.Models
         [DataMember(Name="date")]
         public DateTime Date { get; set; }
 
-        [DataMember(Name="resultId")]
-        public Guid? ResultId { get; set; }
+        /// <summary>
+        /// Gets or Sets PatientId
+        /// </summary>
 
-        [ForeignKey("ResultId")]
-        public Result? Result { get; set; }
+        [DataMember(Name="patientId")]
+        public Guid PatientId { get; set; }
+
+        /// <summary>
+        /// Gets or Sets Patient
+        /// </summary>
+
+        [DataMember(Name="patient")]
+        public virtual Patient Patient { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -61,10 +69,22 @@ namespace IO.Swagger.Models
         {
             var sb = new StringBuilder();
             sb.Append("class Note {\n");
+            sb.Append("  Id: ").Append(Id).Append("\n");
             sb.Append("  Content: ").Append(Content).Append("\n");
             sb.Append("  Date: ").Append(Date).Append("\n");
+            sb.Append("  PatientId: ").Append(PatientId).Append("\n");
+            sb.Append("  Patient: ").Append(Patient).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
+        }
+
+        /// <summary>
+        /// Returns the JSON string presentation of the object
+        /// </summary>
+        /// <returns>JSON string presentation of the object</returns>
+        public string ToJson()
+        {
+            return JsonConvert.SerializeObject(this, Formatting.Indented);
         }
 
         /// <summary>
@@ -91,6 +111,11 @@ namespace IO.Swagger.Models
 
             return 
                 (
+                    Id == other.Id ||
+                    Id != null &&
+                    Id.Equals(other.Id)
+                ) && 
+                (
                     Content == other.Content ||
                     Content != null &&
                     Content.Equals(other.Content)
@@ -99,6 +124,16 @@ namespace IO.Swagger.Models
                     Date == other.Date ||
                     Date != null &&
                     Date.Equals(other.Date)
+                ) && 
+                (
+                    PatientId == other.PatientId ||
+                    PatientId != null &&
+                    PatientId.Equals(other.PatientId)
+                ) && 
+                (
+                    Patient == other.Patient ||
+                    Patient != null &&
+                    Patient.Equals(other.Patient)
                 );
         }
 
@@ -112,10 +147,16 @@ namespace IO.Swagger.Models
             {
                 var hashCode = 41;
                 // Suitable nullity checks etc, of course :)
+                    if (Id != null)
+                    hashCode = hashCode * 59 + Id.GetHashCode();
                     if (Content != null)
                     hashCode = hashCode * 59 + Content.GetHashCode();
                     if (Date != null)
                     hashCode = hashCode * 59 + Date.GetHashCode();
+                    if (PatientId != null)
+                    hashCode = hashCode * 59 + PatientId.GetHashCode();
+                    if (Patient != null)
+                    hashCode = hashCode * 59 + Patient.GetHashCode();
                 return hashCode;
             }
         }
