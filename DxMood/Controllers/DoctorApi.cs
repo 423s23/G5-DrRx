@@ -81,24 +81,14 @@ namespace IO.Swagger.Controllers
                 return NotFound();
             }
 
-            DoctorDto doctorDto = new DoctorDto()
-            {
-                Id = body.Id,
-                LastName = body.LastName,
-                FirstName = body.FirstName,
-                UserName = body.UserName,
-                Password = body.Password
-            };
-            
-            foreach(Patient p in _dbContext.Patients) 
-            {
-                if(p.DoctorId == id)
-                {
-                    doctorDto.Patients.Add(p);
-                }
-            }
+            doctor.LastName = body.LastName;
+            doctor.FirstName = body.FirstName;
+            doctor.UserName = body.UserName;
+            doctor.Password = body.Password;
 
             await _dbContext.SaveChangesAsync();
+
+            DoctorDto doctorDto = toDoctorDto(doctor);
 
             return Ok(doctorDto);
         }
@@ -116,14 +106,7 @@ namespace IO.Swagger.Controllers
         {
             body.Id = Guid.NewGuid();
 
-            DoctorDto doctorDto = new DoctorDto()
-            {
-                Id = body.Id,
-                LastName = body.LastName,
-                FirstName = body.FirstName,
-                UserName = body.UserName,
-                Password = body.Password
-            };
+            DoctorDto doctorDto = toDoctorDto(body);
 
             await _dbContext.Doctors.AddAsync(body);
             await _dbContext.SaveChangesAsync();
@@ -160,6 +143,55 @@ namespace IO.Swagger.Controllers
                 return NotFound();
             }
 
+            DoctorDto doctorDto = toDoctorDto(doctor);
+
+            return Ok(doctorDto);
+        }
+
+        private PatientDto toPatientDto(Patient patient)
+        {
+            PatientDto patientDto = new PatientDto()
+            {
+                Id = patient.Id,
+                LastName = patient.LastName,
+                FirstName = patient.FirstName,
+                DateOfBirth = patient.DateOfBirth,
+                DoctorId = patient.DoctorId,
+                Results = new List<Result>(),
+                Notes = new List<Note>()
+            };
+
+            Doctor? patientsDr = _dbContext.Doctors.Find(patientDto.DoctorId);
+            if(patientsDr is not null)
+            {
+                patientDto.Doctor = patientsDr;
+            }
+            else
+            {
+                throw new ArgumentNullException();
+            }
+
+            foreach(Result r in _dbContext.Results) 
+            {
+                if(r.PatientId == patientDto.Id)
+                {
+                    patientDto.Results.Add(r);
+                }
+            }
+
+            foreach(Note n in _dbContext.Notes) 
+            {
+                if(n.PatientId == patientDto.Id)
+                {
+                    patientDto.Notes.Add(n);
+                }
+            }
+
+            return patientDto;
+        }
+
+        private DoctorDto toDoctorDto(Doctor doctor)
+        {
             DoctorDto doctorDto = new DoctorDto()
             {
                 Id = doctor.Id,
@@ -167,18 +199,18 @@ namespace IO.Swagger.Controllers
                 FirstName = doctor.FirstName,
                 UserName = doctor.UserName,
                 Password = doctor.Password,
-                Patients = new List<Patient>()
+                Patients = new List<PatientDto>()
             };
 
             foreach(Patient p in _dbContext.Patients) 
             {
                 if(p.DoctorId == doctor.Id)
                 {
-                    doctorDto.Patients.Add(p);
+                    PatientDto patientDto = toPatientDto(p);
+                    doctorDto.Patients.Add(patientDto);
                 }
             }
-
-            return Ok(doctorDto);
+            return doctorDto;
         }
     }
 }

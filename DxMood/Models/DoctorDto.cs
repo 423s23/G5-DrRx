@@ -32,6 +32,6 @@ namespace DxMood.Models {
         /// <summary>
         /// Gets or Sets Patients
         /// </summary>
-        public List<Patient> Patients { get; set; }
+        public List<PatientDto> Patients { get; set; }
   }
 }

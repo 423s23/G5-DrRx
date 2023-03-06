@@ -142,6 +142,11 @@ namespace IO.Swagger.Controllers
             if(patientNotes is not null) 
             {
                 body.Patient = patientNotes;
+                Doctor? patientDr = await _dbContext.Doctors.FindAsync(body.Patient.DoctorId);
+                if(patientDr is not null)
+                {
+                    body.Patient.Doctor = patientDr;
+                }
             }
 
             await _dbContext.Notes.AddAsync(body);

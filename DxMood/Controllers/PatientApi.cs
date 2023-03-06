@@ -54,43 +54,8 @@ namespace IO.Swagger.Controllers
             {
                 return NotFound();
             }
-            Doctor? patientsDr = await _dbContext.Doctors.FindAsync(patient.DoctorId);
 
-            PatientDto patientDto = new PatientDto()
-            {
-                Id = patient.Id,
-                LastName = patient.LastName,
-                FirstName = patient.FirstName,
-                DateOfBirth = patient.DateOfBirth,
-                DoctorId = patient.DoctorId,
-                Results = new List<Result>(),
-                Notes = new List<Note>()
-            };
-
-            if(patientsDr is not null) 
-            {
-                patientDto.Doctor = patientsDr;
-            }
-            else
-            {
-                throw new ArgumentNullException();
-            }
-
-            foreach(Result r in _dbContext.Results) 
-            {
-                if(r.PatientId == patient.Id)
-                {
-                    patientDto.Results.Add(r);
-                }
-            }
-
-            foreach(Note n in _dbContext.Notes) 
-            {
-                if(n.PatientId == patient.Id)
-                {
-                    patientDto.Notes.Add(n);
-                }
-            }
+            PatientDto patientDto = toPatientDto(patient);
 
             return Ok(patientDto);
         }
@@ -141,21 +106,56 @@ namespace IO.Swagger.Controllers
                 return NotFound();
             }
 
+            patient.LastName = body.LastName;
+            patient.FirstName = body.FirstName;
+            patient.DateOfBirth = body.DateOfBirth;
+            patient.DoctorId = body.DoctorId;
+
+            await _dbContext.SaveChangesAsync();
+
+            PatientDto patientDto = toPatientDto(patient);
+            
+            return Ok(patientDto);
+        }
+
+        /// <summary>
+        /// Adds a new patient
+        /// </summary>
+        /// <param name="body"></param>
+        /// <response code="200">OK</response>
+        /// <response code="400">bad request</response>
+        [HttpPost]
+        [Route("/patient")]
+        [ValidateModelState]
+        public async Task<IActionResult> PatientPost([FromBody]Patient body)
+        { 
+            body.Id = Guid.NewGuid();
+
+            PatientDto patientDto = toPatientDto(body);
+
+            await _dbContext.Patients.AddAsync(body);
+            await _dbContext.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(PatientPost), new  {id = patientDto.Id}, patientDto);
+        }
+
+        private PatientDto toPatientDto(Patient patient)
+        {
             PatientDto patientDto = new PatientDto()
             {
-                Id = body.Id,
-                LastName = body.LastName,
-                FirstName = body.FirstName,
-                DateOfBirth = body.DateOfBirth,
-                DoctorId = body.DoctorId,
+                Id = patient.Id,
+                LastName = patient.LastName,
+                FirstName = patient.FirstName,
+                DateOfBirth = patient.DateOfBirth,
+                DoctorId = patient.DoctorId,
                 Results = new List<Result>(),
                 Notes = new List<Note>()
             };
 
-            Doctor? patientsDr = await _dbContext.Doctors.FindAsync(patientDto.DoctorId);
+            Doctor? patientsDr = _dbContext.Doctors.Find(patientDto.DoctorId);
             if(patientsDr is not null)
             {
-                patient.Doctor = patientsDr;
+                patientDto.Doctor = patientsDr;
             }
             else
             {
@@ -178,43 +178,7 @@ namespace IO.Swagger.Controllers
                 }
             }
 
-            await _dbContext.SaveChangesAsync();
-
-            return Ok(patientDto);
-        }
-
-        /// <summary>
-        /// Adds a new patient
-        /// </summary>
-        /// <param name="body"></param>
-        /// <response code="200">OK</response>
-        /// <response code="400">bad request</response>
-        [HttpPost]
-        [Route("/patient")]
-        [ValidateModelState]
-        public async Task<IActionResult> PatientPost([FromBody]Patient body)
-        { 
-            body.Id = Guid.NewGuid();
-            Doctor? patientsDr = await _dbContext.Doctors.FindAsync(body.DoctorId);
-
-            Patient patient = new Patient()
-            {
-                Id = body.Id,
-                LastName = body.LastName,
-                FirstName = body.FirstName,
-                DateOfBirth = body.DateOfBirth,
-                DoctorId = body.DoctorId,
-            };
-
-            if(patientsDr is not null) 
-            {
-                patient.Doctor = patientsDr;
-            }
-
-            await _dbContext.Patients.AddAsync(patient);
-            await _dbContext.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(PatientPost), new  {id = patient.Id}, patient);
+            return patientDto;
         }
     }
 }
