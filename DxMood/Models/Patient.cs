@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
 
 namespace IO.Swagger.Models
 { 
@@ -30,7 +31,7 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="id")]
-        public string Id { get; set; }
+        public Guid Id { get; set; }
 
         /// <summary>
         /// Gets or Sets LastName
@@ -51,21 +52,19 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="dateOfBirth")]
-        public string DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         /// <summary>
-        /// Gets or Sets DoctorId
+        /// Foreign Key
         /// </summary>
-
         [DataMember(Name="doctorId")]
-        public string DoctorId { get; set; }
+        public Guid DoctorId { get; set; }
 
         /// <summary>
-        /// Gets or Sets Results
+        /// Navigation Property
         /// </summary>
-
-        [DataMember(Name="results")]
-        public List<Result> Results { get; set; }
+        [DataMember(Name="doctor")]
+        public virtual Doctor Doctor { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -80,9 +79,18 @@ namespace IO.Swagger.Models
             sb.Append("  FirstName: ").Append(FirstName).Append("\n");
             sb.Append("  DateOfBirth: ").Append(DateOfBirth).Append("\n");
             sb.Append("  DoctorId: ").Append(DoctorId).Append("\n");
-            sb.Append("  Results: ").Append(Results).Append("\n");
+            sb.Append("  Doctor: ").Append(Doctor).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
+        }
+
+        /// <summary>
+        /// Returns the JSON string presentation of the object
+        /// </summary>
+        /// <returns>JSON string presentation of the object</returns>
+        public string ToJson()
+        {
+            return JsonConvert.SerializeObject(this, Formatting.Indented);
         }
 
         /// <summary>
@@ -134,9 +142,9 @@ namespace IO.Swagger.Models
                     DoctorId.Equals(other.DoctorId)
                 ) && 
                 (
-                    Results == other.Results ||
-                    Results != null &&
-                    Results.SequenceEqual(other.Results)
+                    Doctor == other.Doctor ||
+                    Doctor != null &&
+                    Doctor.Equals(other.Doctor)
                 );
         }
 
@@ -160,8 +168,8 @@ namespace IO.Swagger.Models
                     hashCode = hashCode * 59 + DateOfBirth.GetHashCode();
                     if (DoctorId != null)
                     hashCode = hashCode * 59 + DoctorId.GetHashCode();
-                    if (Results != null)
-                    hashCode = hashCode * 59 + Results.GetHashCode();
+                    if (Doctor != null)
+                    hashCode = hashCode * 59 + Doctor.GetHashCode();
                 return hashCode;
             }
         }

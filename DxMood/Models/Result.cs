@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
 
 namespace IO.Swagger.Models
 { 
@@ -25,6 +26,13 @@ namespace IO.Swagger.Models
     [DataContract]
     public partial class Result : IEquatable<Result>
     { 
+        /// <summary>
+        /// Gets or Sets Id
+        /// </summary>
+
+        [DataMember(Name="id")]
+        public Guid Id { get; set; }
+
         /// <summary>
         /// Gets or Sets Phq9
         /// </summary>
@@ -79,7 +87,21 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="note")]
-        public Note Note { get; set; }
+        public string Note { get; set; }
+
+        /// <summary>
+        /// Gets or Sets PatientId
+        /// </summary>
+
+        [DataMember(Name="patientId")]
+        public Guid PatientId { get; set; }
+
+        /// <summary>
+        /// Gets or Sets Patient
+        /// </summary>
+
+        [DataMember(Name="patient")]
+        public virtual Patient Patient { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -89,6 +111,7 @@ namespace IO.Swagger.Models
         {
             var sb = new StringBuilder();
             sb.Append("class Result {\n");
+            sb.Append("  Id: ").Append(Id).Append("\n");
             sb.Append("  Phq9: ").Append(Phq9).Append("\n");
             sb.Append("  Gad7: ").Append(Gad7).Append("\n");
             sb.Append("  Isi: ").Append(Isi).Append("\n");
@@ -97,8 +120,19 @@ namespace IO.Swagger.Models
             sb.Append("  RecommendedMedication: ").Append(RecommendedMedication).Append("\n");
             sb.Append("  ResultGenerated: ").Append(ResultGenerated).Append("\n");
             sb.Append("  Note: ").Append(Note).Append("\n");
+            sb.Append("  PatientId: ").Append(PatientId).Append("\n");
+            sb.Append("  Patient: ").Append(Patient).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
+        }
+
+        /// <summary>
+        /// Returns the JSON string presentation of the object
+        /// </summary>
+        /// <returns>JSON string presentation of the object</returns>
+        public string ToJson()
+        {
+            return JsonConvert.SerializeObject(this, Formatting.Indented);
         }
 
         /// <summary>
@@ -124,6 +158,11 @@ namespace IO.Swagger.Models
             if (ReferenceEquals(this, other)) return true;
 
             return 
+                (
+                    Id == other.Id ||
+                    Id != null &&
+                    Id.Equals(other.Id)
+                ) && 
                 (
                     Phq9 == other.Phq9 ||
                     Phq9 != null &&
@@ -163,6 +202,16 @@ namespace IO.Swagger.Models
                     Note == other.Note ||
                     Note != null &&
                     Note.Equals(other.Note)
+                ) && 
+                (
+                    PatientId == other.PatientId ||
+                    PatientId != null &&
+                    PatientId.Equals(other.PatientId)
+                ) && 
+                (
+                    Patient == other.Patient ||
+                    Patient != null &&
+                    Patient.Equals(other.Patient)
                 );
         }
 
@@ -176,6 +225,8 @@ namespace IO.Swagger.Models
             {
                 var hashCode = 41;
                 // Suitable nullity checks etc, of course :)
+                    if (Id != null)
+                    hashCode = hashCode * 59 + Id.GetHashCode();
                     if (Phq9 != null)
                     hashCode = hashCode * 59 + Phq9.GetHashCode();
                     if (Gad7 != null)
@@ -192,6 +243,10 @@ namespace IO.Swagger.Models
                     hashCode = hashCode * 59 + ResultGenerated.GetHashCode();
                     if (Note != null)
                     hashCode = hashCode * 59 + Note.GetHashCode();
+                    if (PatientId != null)
+                    hashCode = hashCode * 59 + PatientId.GetHashCode();
+                    if (Patient != null)
+                    hashCode = hashCode * 59 + Patient.GetHashCode();
                 return hashCode;
             }
         }
