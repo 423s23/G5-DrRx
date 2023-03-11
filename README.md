@@ -1,7 +1,7 @@
 # DxMood
 A diagnosis assistance and recording tool for doctors. 
 
-DXMood is a fullstack app with a C# .NET backend and an HTML and Javascript
+DXMood is a fullstack app with a C# .NET backend and an HTML and Javascript frontend
 
 An API can be exposed at /swagger/index.html
 
