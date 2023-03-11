@@ -21,11 +21,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      working-directory: "/DxMood"
+      working-directory: "./DxMood"
       run: dotnet restore
     - name: Build
-      working-directory: "/DxMood"
+      working-directory: "./DxMood"
       run: dotnet build --no-restore
     - name: Test
-      working-directory: "/DxMood"
+      working-directory: "./DxMood"
       run: dotnet test --no-build --verbosity normal
