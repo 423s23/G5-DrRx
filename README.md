@@ -1,7 +1,9 @@
 # DxMood
 A diagnosis assistance and recording tool for doctors. 
 
-Built with a C# .NET backend
+DXMood is a fullstack app with a C# .NET backend and an HTML and Javascript frontend
+
+An API can be exposed at /swagger/index.html
 
 ## Install
 
@@ -20,3 +22,10 @@ All you need to install for the project to work is the [.NET framework](https://
 
 - wwwroot: Static Frontend Code
 - Controllers: C# Backend Code
+- Services: C# Backend Code
+
+## API
+
+We use Swagger API to help visualize our data models.
+
+When running a localhost this can be accessed at /swagger/index.html
