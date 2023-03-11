@@ -8,19 +8,18 @@
 
 /*Define color scheme*/
 :root {
-    --header-color: #181818;
-    --main-color: #212121;
-    --footer-color: #454545;
+    --header-color:  #C4DCF8;
+    --main-color:#FEFCFF;
+    --footer-color: #C4DCF8;
 }
 
 body {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
-header,
 main,
 footer {
     display: flex;
@@ -28,10 +27,93 @@ footer {
     justify-content: center;
 }
 
-header {
-    flex: 1;
-    background-color: var(--header-color);
+.navbar {
+    position: flex;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#C4DCF8;    
 }
+
+.logo{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+    margin-left: 1em;
+    }
+
+    .logo li:hover {
+    background-color: #4EA1FF;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+        
+    .logo li {
+    padding: 5px 14px;
+    text-decoration: none;
+    }
+    
+    .logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.button1{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+}
+
+.button2{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+}
+
+.button3{ 
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    margin-right: 1em;
+    }
+    
+    .menu li:hover {
+    background-color: #4EA1FF;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+    
+    .menu li {
+    padding: 5px 14px;
+    text-decoration: none;
+    }
+
+    .menu a{
+    text-decoration: none;
+    color: white;
+    }
 
 main {
     flex: 4;
@@ -43,7 +125,3 @@ footer {
     background-color: var(--footer-color);
 }
 
-.header-image {
-    margin-left: 16px;
-    margin-bottom: 4px;
-}
