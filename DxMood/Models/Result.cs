@@ -38,28 +38,28 @@ namespace IO.Swagger.Models
         /// </summary>
 
         [DataMember(Name="phq9")]
-        public int? Phq9 { get; set; }
+        public int Phq9 { get; set; }
 
         /// <summary>
         /// Gets or Sets Gad7
         /// </summary>
 
         [DataMember(Name="gad7")]
-        public int? Gad7 { get; set; }
+        public int Gad7 { get; set; }
 
         /// <summary>
         /// Gets or Sets Isi
         /// </summary>
 
         [DataMember(Name="isi")]
-        public int? Isi { get; set; }
+        public int Isi { get; set; }
 
         /// <summary>
         /// Gets or Sets ASRS
         /// </summary>
 
         [DataMember(Name="ASRS")]
-        public int? ASRS { get; set; }
+        public int ASRS { get; set; }
 
         /// <summary>
         /// Gets or Sets Diagnosis

@@ -123,16 +123,16 @@ namespace IO.Swagger.Controllers
         /// <response code="200">Successful return of doctor</response>
         /// <response code="400">bad request</response>
         /// <response code="404">could not find this doctor</response>
-        [HttpGet]
-        [Route("/doctor/{username}/{password}")]
+        [HttpPost]
+        [Route("/doctor/login")]
         [ValidateModelState]
-        public virtual IActionResult GetDoctor([FromRoute][Required]string username, [FromRoute][Required]string password)
+        public virtual IActionResult GetDoctor([FromBody]Doctor body)
         { 
-            Doctor? doctor = null;
+            Doctor? doctor = body;
 
             foreach (Doctor dr in _dbContext.Doctors)
             {
-                if(dr.UserName == username && dr.Password == password)
+                if(dr.UserName == doctor.UserName && dr.Password == doctor.Password)
                 {
                     doctor = dr;
                 }
