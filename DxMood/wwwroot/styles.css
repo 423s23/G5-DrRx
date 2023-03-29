@@ -30,7 +30,7 @@ footer {
 .navbar {
     position: flex;
     width: 100%;
-    height: 120px;
+    height: 65px;
     left: 0px;
     top: 0px;
     display: flex;
@@ -123,5 +123,12 @@ main {
 footer {
     flex: 1;
     background-color: var(--footer-color);
+    font-size: 11px;
+    position: flex;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
 }
 

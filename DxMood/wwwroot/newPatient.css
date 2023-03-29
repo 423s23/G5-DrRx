@@ -2,11 +2,14 @@ main{
     display: flex;
     flex-direction: column;
     overflow: auto;
+    text-align: left;
 }
 
 p{
     font-size: 18px;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
+    text-align: left;
+
 }
 
 button{
