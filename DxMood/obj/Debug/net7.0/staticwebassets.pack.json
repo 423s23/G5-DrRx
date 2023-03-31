@@ -1,8 +1,24 @@
 {
   "Files": [
     {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/Account.html",
+      "PackagePath": "staticwebassets/Account.html"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/Patients.html",
+      "PackagePath": "staticwebassets/Patients.html"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/account.css",
+      "PackagePath": "staticwebassets/account.css"
+    },
+    {
       "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/app.js",
       "PackagePath": "staticwebassets/app.js"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/el-doctor.svg",
+      "PackagePath": "staticwebassets/imgs/el-doctor.svg"
     },
     {
       "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/medical-case.png",
@@ -11,6 +27,22 @@
     {
       "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/newPatient.css",
+      "PackagePath": "staticwebassets/newPatient.css"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/newPatient.html",
+      "PackagePath": "staticwebassets/newPatient.html"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/patients.css",
+      "PackagePath": "staticwebassets/patients.css"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/redirectindex.js",
+      "PackagePath": "staticwebassets/redirectindex.js"
     },
     {
       "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/styles.css",

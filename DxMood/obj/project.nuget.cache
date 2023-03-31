@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BtLdZd4cEKqIEh3PhSUOGgq/kA+Xbj+TRNRQATkhGaHngDY1v4m0aW4fbakTvSaFuxaNnx2y82KxJpiOonOQzw==",
+  "dgSpecHash": "h94KVYrv6GTleBAUiSMGuZbPRTl1zLD/RTEZPXJHHybcADFQUr3vpw5bqvx1QlPWgOxCo0ujxm997WdwIb9zXA==",
   "success": true,
   "projectFilePath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
   "expectedPackageFiles": [
@@ -45,7 +45,9 @@
     "/Users/treythompson/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/treythompson/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/treythompson/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/treythompson/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/treythompson/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/Users/treythompson/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/Users/treythompson/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/treythompson/.nuget/packages/swashbuckle.aspnetcore.annotations/6.5.0/swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "/Users/treythompson/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

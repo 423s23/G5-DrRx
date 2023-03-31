@@ -19,6 +19,7 @@ using IO.Swagger.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using IO.Swagger.Models;
 using DxMood.Data;
+using DxMood.Services.Interfaces;
 
 namespace IO.Swagger.Controllers
 { 
@@ -29,10 +30,12 @@ namespace IO.Swagger.Controllers
     public class ResultApiController : ControllerBase
     { 
         private readonly DxMoodDbContext _dbContext;
+        private readonly IDxMoodService _dxMoodService;
 
-        public ResultApiController(DxMoodDbContext dbContext)
+        public ResultApiController(DxMoodDbContext dbContext, IDxMoodService dxMoodService)
         {
             _dbContext = dbContext;
+            _dxMoodService = dxMoodService;
         }
 
         /// <summary>
@@ -150,10 +153,15 @@ namespace IO.Swagger.Controllers
                 body.Patient = patientResults;
             }
 
+            Result result = _dxMoodService.GetDiagnosis(body.Phq9, body.Gad7, body.Isi, body.ASRS);
+
+            body.Diagnosis = result.Diagnosis;
+            body.RecommendedMedication  = result.RecommendedMedication;
+
             await _dbContext.Results.AddAsync(body);
             await _dbContext.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(ResultPost), new  {id = body.Id}, body);
+            return CreatedAtAction(nameof(ResultPost), new  {id = result.Id}, body);
         }
     }
 }
