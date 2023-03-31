@@ -9,7 +9,13 @@ p{
     font-size: 18px;
     padding-bottom: 20px;
     text-align: left;
+}
 
+h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 button{
