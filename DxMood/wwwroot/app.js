@@ -86,7 +86,8 @@ if (refreshPatientsButton) {
     refreshPatientsButton.onclick= () => {
         patientList.innerHTML = "";
         console.log("dog");
-        getPatients();
+        let response = getPatients();
+        patientList.innerhtml = response;
     };
 }
 

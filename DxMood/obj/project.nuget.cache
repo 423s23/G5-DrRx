@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wm6F0mFFXeMql/RL4Omb+oT+CKEqFt/QSBIQEYu9ixaAK+FZCus7VOBRIiArTVoJCrCJySfe+Tj28FQT+1WVWA==",
+  "dgSpecHash": "CaJHIdbiEBRBEdbejCuKvJPBZewIhk5ukJpQqIGyRKnn7rRK35BdX36LiKDh05SNYEsZWg9ENg9CmvGO/sDuNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\DxMood\\DxMood.csproj",
+  "projectFilePath": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\DxMood.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\under\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\under\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
