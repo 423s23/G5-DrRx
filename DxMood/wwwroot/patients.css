@@ -16,3 +16,19 @@ p{
     font-size: 16px;
     padding-bottom: 20px;
 }
+
+.flex{
+    display:flex;
+}
+
+button{
+    background-color: #0073F4;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    line-height: 32px;
+    width:32px;
+    height:32px;
+    margin-left: 12px;
+}
