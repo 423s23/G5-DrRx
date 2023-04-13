@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x0BP/ojDj+P8pTnFLt/LogN0F9Q9c7x2mdareZgza/w=",
+  "Hash": "c4t07H6xX8weyxAiuyyz3CqgmsxZZdk0SYZjJ4n+IzU=",
   "Source": "DxMood",
   "BasePath": "_content/DxMood",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DxMood/wwwroot",
       "Source": "DxMood",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/account.css",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/account.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "account.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot/account.css"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/Account.html",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/Account.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "Account.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot/Account.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/app.js",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/app.js",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "app.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/app.js"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/el-doctor.svg",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/imgs/el-doctor.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "imgs/el-doctor.svg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/imgs/el-doctor.svg"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/medical-case.png",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/imgs/medical-case.png",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "imgs/medical-case.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/imgs/medical-case.png"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/index.html",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/index.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/newPatient.css",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/newPatient.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "newPatient.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/newPatient.css"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/newPatient.html",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/newPatient.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "newPatient.html",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/newPatient.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/patients.css",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/patients.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "patients.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/patients.css"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/Patients.html",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/Patients.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "Patients.html",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/Patients.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/redirectindex.js",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/redirectindex.js",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "redirectindex.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/redirectindex.js"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/styles.css",
+      "Identity": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/styles.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "styles.css",
       "AssetKind": "All",

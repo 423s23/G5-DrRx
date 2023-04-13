@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {}
+    "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj": {}
   },
   "projects": {
-    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {
+    "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
+        "projectUniqueName": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj",
         "projectName": "DxMood",
-        "projectPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
-        "packagesPath": "/Users/treythompson/.nuget/packages/",
-        "outputPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/obj/",
+        "projectPath": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj",
+        "packagesPath": "/Users/kflinn/.nuget/packages/",
+        "outputPath": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/treythompson/.nuget/NuGet/NuGet.Config"
+          "/Users/kflinn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
