@@ -12,7 +12,11 @@ let doctorObject = {};
 
 const createDoctor = () => {
     axios
-        .post(`${serviceURL}/doctor`)
+        .post(`${serviceURL}/doctor`, {
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
         .then((response) => {
             console.log(`POST doctor`, response);
             doctorObject = response;
@@ -74,7 +78,6 @@ const createPatient = () => {
 
 /**Result API**/
 
-
 /** Function calls **/
 if (diagnoseButton) {
     diagnoseButton.onclick = () => {
@@ -83,7 +86,7 @@ if (diagnoseButton) {
 }
 
 if (refreshPatientsButton) {
-    refreshPatientsButton.onclick= () => {
+    refreshPatientsButton.onclick = () => {
         patientList.innerHTML = "";
         console.log("dog");
         let response = getPatients();
@@ -92,6 +95,5 @@ if (refreshPatientsButton) {
 }
 
 createDoctor();
-
 
 //getPatients();
