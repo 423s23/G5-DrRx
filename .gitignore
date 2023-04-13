@@ -49,5 +49,5 @@ Thumbs.db
 *.wmv
 
 # Bin and Obj directories
-**/bin
-**/obj
+bin/
+obj/
