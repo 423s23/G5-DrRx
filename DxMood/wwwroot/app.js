@@ -11,8 +11,15 @@ let doctorObject = {};
 /**Doctor API**/
 
 const createDoctor = () => {
+    let data = {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "lastName": "string",
+        "firstName": "string",
+        "userName": "string",
+        "password": "string"
+      }
     axios
-        .post(`${serviceURL}/doctor`, {
+        .post(`${serviceURL}/doctor`, data, {
             headers: {
                 "Content-Type": "application/json",
             },

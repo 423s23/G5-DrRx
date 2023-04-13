@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {}
+    "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\DxMood.csproj": {}
   },
   "projects": {
-    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {
+    "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\DxMood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
+        "projectUniqueName": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\DxMood.csproj",
         "projectName": "DxMood",
-        "projectPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
-        "packagesPath": "/Users/treythompson/.nuget/packages/",
-        "outputPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/obj/",
+        "projectPath": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\DxMood.csproj",
+        "packagesPath": "C:\\Users\\under\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/treythompson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\under\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
