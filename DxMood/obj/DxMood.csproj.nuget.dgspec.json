@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj": {}
+    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {}
   },
   "projects": {
-    "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj": {
+    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj",
+        "projectUniqueName": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
         "projectName": "DxMood",
-        "projectPath": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/DxMood.csproj",
-        "packagesPath": "/Users/kflinn/.nuget/packages/",
-        "outputPath": "/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/",
+        "projectPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
+        "packagesPath": "/Users/treythompson/.nuget/packages/",
+        "outputPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kflinn/.nuget/NuGet/NuGet.Config"
+          "/Users/treythompson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -38,21 +38,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "NUnit": {
               "target": "Package",
@@ -60,7 +64,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.2, )"
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

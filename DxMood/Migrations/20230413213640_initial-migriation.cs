@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DxMood.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class initialmigriation : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -72,10 +72,10 @@ namespace DxMood.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Phq9 = table.Column<int>(type: "int", nullable: true),
-                    Gad7 = table.Column<int>(type: "int", nullable: true),
-                    Isi = table.Column<int>(type: "int", nullable: true),
-                    ASRS = table.Column<int>(type: "int", nullable: true),
+                    Phq9 = table.Column<int>(type: "int", nullable: false),
+                    Gad7 = table.Column<int>(type: "int", nullable: false),
+                    Isi = table.Column<int>(type: "int", nullable: false),
+                    ASRS = table.Column<int>(type: "int", nullable: false),
                     Diagnosis = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RecommendedMedication = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ResultGenerated = table.Column<string>(type: "nvarchar(max)", nullable: false),

@@ -158,3 +158,7 @@
 /Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.pdb
 /Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.genruntimeconfig.cache
 /Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/ref/DxMood.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/Firebase.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/LiteDB.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Reactive.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Runtime.InteropServices.WindowsRuntime.dll
