@@ -53,19 +53,40 @@ namespace DxMood.Services
             } else if (phq9Positive == true && gad7Positive == true && isiPositive == true && asrsPositive == false) {
                 return("MDD + GAD + Insomnia");
             } else if (phq9Positive == false && gad7Positive == false && isiPositive == true && asrsPositive == true) {
-                return("ADHD inattentive + Insomnia");
+                return("ADHD inattentive (if A Positive)/impulsivity (if B positive) + Insomnia");
             } else if (phq9Positive == true && gad7Positive == true && isiPositive == true && asrsPositive == true) {
-                return("PANIC!!!");
+                return("ADHD + GAD + MDD + Insomnia");
             } else {
-                return("Invalid test results");
+                return("Path not covered");
             }
         }
 
         // Helper method to calculate the recommended treatment based on the diagnosis
         private string CalculateTreatment(string diagnosis)
         {
-            // Perform treatment calculation here
-            return "Some treatment";
+            if (diagnosis.Equals("No Psychiatric Dx")) {
+                return("None");
+            } else if (diagnosis.Equals("MDD")) {
+                return("SSRI or SNRI");
+            } else if (diagnosis.Equals("GAD")) {
+                return("CBT, SSRI, SNRI");
+            } else if (diagnosis.Equals("Insomnia")) {
+                return("CBT-I, Doxepin, Trazodone, Gabapentin");
+            } else if (diagnosis.Equals("Adult ADHD - inattentive (if A Positive) or impulsivity (if B Positive)")) {
+                return("CBT, Adderall (if A positive), Ritalin (if B Positive)");
+            } else if (diagnosis.Equals("MDD + GAD")) {
+                return("CBT, SSRI, SNRI");
+            } else if (diagnosis.Equals("MDD + Insomnia")) {
+                return("Mirtazapine, Doxepin, Trazodone");
+            } else if (diagnosis.Equals("MDD + GAD + Insomnia")) {
+                return("Mirtazapine or Doxepin");
+            } else if (diagnosis.Equals("ADHD inattentive (if A Positive)/impulsivity (if B positive) + Insomnia")) {
+                return("CBT-i, Bupropion, or Strattera (for A Positive) or Not covered in diagnosis table if B Positive");
+            } else if (diagnosis.Equals("ADHD + GAD + MDD + Insomnia")) {
+                return("Not covered in diagnosis table");
+            } else {
+                return("Path not covered");
+            }
         }
     }
 }
