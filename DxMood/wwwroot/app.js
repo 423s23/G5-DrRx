@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const serviceURL = "http://localhost:5191";
 
 const diagnoseButton = document.getElementById("diagnose");
@@ -90,5 +92,8 @@ if (refreshPatientsButton) {
         patientList.innerhtml = response;
     };
 }
+
+createDoctor();
+
 
 //getPatients();
