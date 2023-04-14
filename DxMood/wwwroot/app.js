@@ -14,7 +14,7 @@ let patientList = [];
 /**Doctor API**/
 
 const createDoctor = () => {
-    let data = {
+    let body = {
         id: "3fa85f64-5717-4562-b3fc-2c963f66afa6",
         lastName: "string",
         firstName: "string",
@@ -22,7 +22,7 @@ const createDoctor = () => {
         password: "string",
     };
     axios
-        .post(`${serviceURL}/doctor`, data, {
+        .post(`${serviceURL}/doctor`, body, {
             headers: {
                 "Content-Type": "application/json",
             },
@@ -30,33 +30,30 @@ const createDoctor = () => {
         .then((response) => {
             console.log(`POST doctor`, response);
             doctorObject = response;
-            console.log(doctorObject)
+            console.log(doctorObject);
             doctorID = doctorObject?.id;
             patientList = doctorObject?.patients;
+            updateDoctorName(doctorObject.lastname);
         })
         .catch((error) => console.error(error));
 };
 
 //return patient list
 const signInDoctor = (username, password) => {
+    let body = {
+        username: username,
+        password: password,
+    };
     axios
-        .post(
-            `${serviceURL}/doctor/login`,
-            [
-                {
-                    username: username,
-                    password: password,
-                },
-            ],
-            {
-                headers: {
-                    "Content-Type": "application/json",
-                },
-            }
-        )
+        .post(`${serviceURL}/doctor/login`, body, {
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
         .then((response) => {
             console.log(`POST doctor login`, response);
             doctorObject = response;
+            updateDoctorName(doctorObject.lastname);
             return response;
         })
         .catch((error) => console.error(error));
@@ -64,19 +61,22 @@ const signInDoctor = (username, password) => {
 
 /**Patient API**/
 
-
-const createPatient = () => {
+const createPatient = (firstname, lastname, DOB, doctorID ) => {
+    let body = {
+        id: "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        lastName: lastname,
+        firstName: firstname,
+        dateOfBirth: DOB,
+        doctorId: doctorID,
+    };
     axios
-        .post(`${serviceURL}/patient`, [
-            {
-                lastName: "string",
-                firstName: "string",
-                doctorID: doctorObject.id,
+        .post(`${serviceURL}/patient`, body, {
+            headers: {
+                "Content-Type": "application/json",
             },
-        ])
+        })
         .then((response) => {
             console.log(`PUT patient`, response);
-
         })
         .catch((error) => console.error(error));
 };
@@ -88,14 +88,13 @@ const createPatient = () => {
 /** Function calls **/
 if (diagnoseButton) {
     diagnoseButton.onclick = () => {
-        createPatient();
+        createPatient("testfirst", "testlast", "1/23/2002", doctorID);
     };
 }
 
 if (refreshPatientsButton) {
     refreshPatientsButton.onclick = () => {
         patientDiv.innerHTML = "";
-        console.log("dog");
         patientDiv.innerhtml = patientList;
         /*for(patient in patientList){
             patientDiv.innerHTML+=`<p>${patient}</p>`
@@ -103,8 +102,14 @@ if (refreshPatientsButton) {
     };
 }
 
-if(doctorName){
-    doctorName.innerText = `Dr. ${doctorObject?.lastname}'s profile`
+const updateDoctorName = (lastname) => {
+    doctorName.innerText = `Dr. ${lastname}'s profile`;
+};
+
+if (doctorName && doctorObject?.lastname) {
+    updateDoctorName(doctorObject?.lastname);
+} else {
+    signInDoctor("username", "password");
 }
 
 createDoctor();
