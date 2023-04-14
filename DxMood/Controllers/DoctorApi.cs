@@ -155,7 +155,6 @@ namespace IO.Swagger.Controllers
                 Id = patient.Id,
                 LastName = patient.LastName,
                 FirstName = patient.FirstName,
-                DateOfBirth = patient.DateOfBirth,
                 DoctorId = patient.DoctorId,
                 Results = new List<Result>(),
                 Notes = new List<Note>()

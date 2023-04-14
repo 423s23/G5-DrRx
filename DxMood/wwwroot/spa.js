@@ -48,10 +48,6 @@ function addNewPatient(name, diagnosis) {
     updatePatientDiv();
 }
 
-addNewPatient("Test1", "He dead");
-addNewPatient("Test2", "He dead");
-addNewPatient("Test3", "He dead");
-
 let loginInfo = {
     username: "Testing123",
     password: "password123",
@@ -94,14 +90,18 @@ const inputDOB = document.getElementById("inp-dob");
 diagnoseButton.onclick = (e) => {
     e.preventDefault();
     //createPatient("testfirst", "testlast", "1/23/2002", doctorID);
-    addNewPatient(inputName.value, "AIDS");
+    addNewPatient(inputName.value, "MDD + Insomnia");
     updateDoctorName();
-    APIcreatePatient(inputName.value,inputName.value,inputDOB.value,doctorID);
+    APIcreatePatient(inputName.value,inputName.value,doctorID);
 };
 
 //API calls
 
 let doctorID = "";
+
+let doctorObject={
+
+}
 
 
 const APIsignInDoctor = (username, password) => {
@@ -119,18 +119,26 @@ const APIsignInDoctor = (username, password) => {
         })
         .then((response) => {
             console.log(`POST doctor login`, response);
-            doctorID = response?.id;
+            doctorObject = response.data;
+            doctorID = doctorObject.id;
+            updateDoctorName(doctorObject.lastName)
         })
         .catch((error) => console.error(error));
 };
 
-const APIcreatePatient = (firstname, lastname, DOB, doctorID) => {
+const APIcreatePatient = (firstname, lastname, doctorID) => {
     let body = {
         id: "3fa85f64-5717-4562-b3fc-2c963f66afa6",
         lastName: lastname,
         firstName: firstname,
-        dateOfBirth: DOB,
         doctorId: doctorID,
+        doctor: {
+            id: "6fa85f64-5717-4562-b3fc-2c963f66afa6",
+            lastName: "string",
+            firstName: "string",
+            userName: "string",
+            password: "string"
+        }
     };
     axios
         .post(`${serviceURL}/patient`, body, {
@@ -139,7 +147,7 @@ const APIcreatePatient = (firstname, lastname, DOB, doctorID) => {
             },
         })
         .then((response) => {
-            console.log(`PUT patient`, response);
+            console.log(`POST patient`, response);
         })
         .catch((error) => console.error(error));
 };
