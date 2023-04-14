@@ -1,3 +1,5 @@
+const serviceURL = "http://localhost:5191";
+
 let pages = ["login", "patients", "addpatient", "account"];
 
 const loginPage = document.getElementById("login");
