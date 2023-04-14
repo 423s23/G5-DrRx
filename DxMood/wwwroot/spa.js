@@ -106,6 +106,8 @@ let doctorID = "";
 
 const APIsignInDoctor = (username, password) => {
     let body = {
+        firstName: "Phillip",
+        lastName: "Bain",
         username: username,
         password: password,
     };

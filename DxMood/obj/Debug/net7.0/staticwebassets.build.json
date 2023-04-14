@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x0BP/ojDj+P8pTnFLt/LogN0F9Q9c7x2mdareZgza/w=",
+  "Hash": "ipMzMm//gc3uCbg9eDEIOxJoqslJL5c+Ux6rVuqSELs=",
   "Source": "DxMood",
   "BasePath": "_content/DxMood",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "DxMood/wwwroot",
+      "Name": "DxMood\\wwwroot",
       "Source": "DxMood",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/account.css",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\account.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "account.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/account.css"
+      "OriginalItemSpec": "wwwroot\\account.css"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/Account.html",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\Account.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "Account.html",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Account.html"
+      "OriginalItemSpec": "wwwroot\\Account.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/app.js",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\app.js",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "app.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/app.js"
+      "OriginalItemSpec": "wwwroot\\app.js"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/el-doctor.svg",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\imgs\\el-doctor.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "imgs/el-doctor.svg",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/imgs/el-doctor.svg"
+      "OriginalItemSpec": "wwwroot\\imgs\\el-doctor.svg"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/imgs/medical-case.png",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\imgs\\medical-case.png",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "imgs/medical-case.png",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/imgs/medical-case.png"
+      "OriginalItemSpec": "wwwroot\\imgs\\medical-case.png"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/index.html",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\index.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/index.html"
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/newPatient.css",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\newPatient.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "newPatient.css",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/newPatient.css"
+      "OriginalItemSpec": "wwwroot\\newPatient.css"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/newPatient.html",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\newPatient.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "newPatient.html",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/newPatient.html"
+      "OriginalItemSpec": "wwwroot\\newPatient.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/patients.css",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\patients.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "patients.css",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/patients.css"
+      "OriginalItemSpec": "wwwroot\\patients.css"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/Patients.html",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\Patients.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "Patients.html",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Patients.html"
+      "OriginalItemSpec": "wwwroot\\Patients.html"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/redirectindex.js",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\redirectindex.js",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "redirectindex.js",
       "AssetKind": "All",
@@ -201,13 +201,47 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/redirectindex.js"
+      "OriginalItemSpec": "wwwroot\\redirectindex.js"
     },
     {
-      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/styles.css",
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.css",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "spa.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\spa.css"
+    },
+    {
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.js",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "spa.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\spa.js"
+    },
+    {
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\styles.css",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
       "BasePath": "_content/DxMood",
       "RelativePath": "styles.css",
       "AssetKind": "All",
@@ -218,7 +252,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles.css"
+      "OriginalItemSpec": "wwwroot\\styles.css"
     }
   ]
 }
