@@ -2,22 +2,25 @@ const serviceURL = "http://localhost:5191";
 
 const diagnoseButton = document.getElementById("diagnose");
 const refreshPatientsButton = document.getElementById("refresh-patients-btn");
-const patientList = document.getElementById("patient-list");
+const patientDiv = document.getElementById("patient-list");
+const doctorName = document.getElementById("doctor-name");
 
 let doctorID = "";
 
 let doctorObject = {};
 
+let patientList = [];
+
 /**Doctor API**/
 
 const createDoctor = () => {
     let data = {
-        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-        "lastName": "string",
-        "firstName": "string",
-        "userName": "string",
-        "password": "string"
-      }
+        id: "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        lastName: "string",
+        firstName: "string",
+        userName: "string",
+        password: "string",
+    };
     axios
         .post(`${serviceURL}/doctor`, data, {
             headers: {
@@ -27,6 +30,9 @@ const createDoctor = () => {
         .then((response) => {
             console.log(`POST doctor`, response);
             doctorObject = response;
+            console.log(doctorObject)
+            doctorID = doctorObject?.id;
+            patientList = doctorObject?.patients;
         })
         .catch((error) => console.error(error));
 };
@@ -34,12 +40,20 @@ const createDoctor = () => {
 //return patient list
 const signInDoctor = (username, password) => {
     axios
-        .post(`${serviceURL}/doctor/login`, [
+        .post(
+            `${serviceURL}/doctor/login`,
+            [
+                {
+                    username: username,
+                    password: password,
+                },
+            ],
             {
-                username: username,
-                password: password,
-            },
-        ])
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            }
+        )
         .then((response) => {
             console.log(`POST doctor login`, response);
             doctorObject = response;
@@ -50,21 +64,6 @@ const signInDoctor = (username, password) => {
 
 /**Patient API**/
 
-const getPatients = (username, password) => {
-    axios
-        .post(`${serviceURL}/doctor/login`, [
-            {
-                username: username,
-                password: password,
-            },
-        ])
-        .then((response) => {
-            console.log(`POST doctor login`, response);
-            doctorObject = response;
-            return response;
-        })
-        .catch((error) => console.error(error));
-};
 
 const createPatient = () => {
     axios
@@ -77,6 +76,7 @@ const createPatient = () => {
         ])
         .then((response) => {
             console.log(`PUT patient`, response);
+
         })
         .catch((error) => console.error(error));
 };
@@ -94,11 +94,17 @@ if (diagnoseButton) {
 
 if (refreshPatientsButton) {
     refreshPatientsButton.onclick = () => {
-        patientList.innerHTML = "";
+        patientDiv.innerHTML = "";
         console.log("dog");
-        let response = getPatients();
-        patientList.innerhtml = response;
+        patientDiv.innerhtml = patientList;
+        /*for(patient in patientList){
+            patientDiv.innerHTML+=`<p>${patient}</p>`
+        }*/
     };
+}
+
+if(doctorName){
+    doctorName.innerText = `Dr. ${doctorObject?.lastname}'s profile`
 }
 
 createDoctor();
