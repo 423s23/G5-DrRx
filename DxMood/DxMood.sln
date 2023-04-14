@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1704.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxMood", "DxMood.csproj", "{845C8977-DD40-4E3E-851E-B54A32AA54D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DxMood", "DxMood.csproj", "{845C8977-DD40-4E3E-851E-B54A32AA54D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DxMoodTest", "..\DxMoodTest\DxMoodTest.csproj", "{1EB46586-0C92-4B65-844D-926BB87B2655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{845C8977-DD40-4E3E-851E-B54A32AA54D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845C8977-DD40-4E3E-851E-B54A32AA54D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845C8977-DD40-4E3E-851E-B54A32AA54D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB46586-0C92-4B65-844D-926BB87B2655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB46586-0C92-4B65-844D-926BB87B2655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB46586-0C92-4B65-844D-926BB87B2655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB46586-0C92-4B65-844D-926BB87B2655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
