@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trey T\\Desktop\\Repos\\dxmood-bitk\\DxMood\\DxMood.csproj": {}
+    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trey T\\Desktop\\Repos\\dxmood-bitk\\DxMood\\DxMood.csproj": {
+    "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trey T\\Desktop\\Repos\\dxmood-bitk\\DxMood\\DxMood.csproj",
+        "projectUniqueName": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
         "projectName": "DxMood",
-        "projectPath": "C:\\Users\\Trey T\\Desktop\\Repos\\dxmood-bitk\\DxMood\\DxMood.csproj",
-        "packagesPath": "C:\\Users\\Trey T\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trey T\\Desktop\\Repos\\dxmood-bitk\\DxMood\\obj\\",
+        "projectPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/DxMood.csproj",
+        "packagesPath": "/Users/treythompson/.nuget/packages/",
+        "outputPath": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Trey T\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/treythompson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
