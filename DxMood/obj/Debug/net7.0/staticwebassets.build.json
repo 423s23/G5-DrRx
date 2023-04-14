@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4YS6WLcbK+qyGvwjFbVuJeIaDvcP0m+niHeD5w0bngg=",
+  "Hash": "ipMzMm//gc3uCbg9eDEIOxJoqslJL5c+Ux6rVuqSELs=",
   "Source": "DxMood",
   "BasePath": "_content/DxMood",
   "Mode": "Default",
@@ -202,6 +202,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\redirectindex.js"
+    },
+    {
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.css",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "spa.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\spa.css"
+    },
+    {
+      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.js",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "spa.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\spa.js"
     },
     {
       "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\styles.css",

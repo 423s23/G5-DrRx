@@ -1,0 +1,245 @@
+/*From style.css*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: acumin-pro, sans-serif;
+}
+
+/*Define color scheme*/
+:root {
+    --header-color:  #C4DCF8;
+    --main-color:#FEFCFF;
+    --footer-color: #C4DCF8;
+}
+
+body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    position: flex;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#C4DCF8;    
+}
+
+.logo{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+    margin-left: 1em;
+    }
+
+    .logo li:hover {
+    background-color: #4EA1FF;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+        
+    .logo li {
+    padding: 5px 14px;
+    text-decoration: none;
+    }
+    
+    .logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.button1{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+}
+
+.button2{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+}
+
+.button3{ 
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    background-color: #0073F4;
+    border: 2px solid #414141;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    margin-right: 1em;
+    }
+    
+    .menu li:hover {
+    background-color: #4EA1FF;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    }
+    
+    .menu li {
+    padding: 5px 14px;
+    text-decoration: none;
+    }
+
+    .menu a{
+    text-decoration: none;
+    color: white;
+    }
+
+main {
+    flex: 4;
+    background-color: var(--main-color);
+}
+
+footer {
+    background-color: var(--footer-color);
+    font-size: 10px;
+    position: flex;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+}
+
+#footerSize{
+    font-size: 12px;
+}
+
+/*From patients.css*/
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.mx-4{
+    margin-left:8px;
+    margin-right:8px;
+}
+
+#refresh-patients-btn{
+    width:32px;
+    height: 32px;
+}
+
+/*From newPatient.css*/
+
+.auto-overflow{
+    overflow-y: auto;
+}
+
+
+/*From account.css*/
+
+.image-container{
+    background-color: black;
+    border-radius: 1000px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*New*/
+
+body{
+    background-color: rgb(235,235,235);
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-v{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+h2{
+    margin-bottom: 12px;
+}
+
+#patient-list li{
+    margin:4px 0;
+    padding: 4px;
+    background-color: rgba(196, 220, 248,0.2);
+    list-style: none;
+    width:360px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    min-width:400px;
+}
+
+label{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+input{
+    margin-bottom: 24px;
+    padding: 4px;
+}
+
+button{
+    padding: 4px;
+    font-weight:500;
+}
+
+
+.diagnosis{
+    padding-left:48px;
+    font-weight: 600;
+}

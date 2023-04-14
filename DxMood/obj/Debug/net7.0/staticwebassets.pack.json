@@ -45,6 +45,14 @@
       "PackagePath": "staticwebassets\\redirectindex.js"
     },
     {
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.css",
+      "PackagePath": "staticwebassets\\spa.css"
+    },
+    {
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.js",
+      "PackagePath": "staticwebassets\\spa.js"
+    },
+    {
       "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\styles.css",
       "PackagePath": "staticwebassets\\styles.css"
     },
