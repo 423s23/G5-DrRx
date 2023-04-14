@@ -19,6 +19,8 @@ let doctorObject = {};
 
 let patientList = [];
 
+let patientId = "";
+
 /**Doctor API**/
 
 const createDoctor = () => {
@@ -69,7 +71,7 @@ const signInDoctor = (username, password) => {
 
 /**Patient API**/
 
-const createPatient = (firstname, lastname, DOB, doctorID ) => {
+const createPatient = (firstname, lastname, DOB, doctorID) => {
     let body = {
         id: "3fa85f64-5717-4562-b3fc-2c963f66afa6",
         lastName: lastname,
@@ -92,6 +94,31 @@ const createPatient = (firstname, lastname, DOB, doctorID ) => {
 /**Note API**/
 
 /**Result API**/
+
+const createResult = (patientID) => {
+    let body = {
+        id: "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        phq9: 0,
+        gad7: 0,
+        isi: 0,
+        asrs: 0,
+        diagnosis: "string",
+        recommendedMedication: "string",
+        resultGenerated: "string",
+        note: "string",
+        patientId: patientID,
+    };
+    axios
+        .post(`${serviceURL}/result`, body, {
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+        .then((response) => {
+            console.log(`PUT patient`, response);
+        })
+        .catch((error) => console.error(error));
+};
 
 /** Function calls **/
 if (diagnoseButton) {
