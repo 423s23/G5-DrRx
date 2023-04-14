@@ -119,6 +119,12 @@ namespace DxMoodTests
             Assert.AreEqual("CBT, SSRI, SNRI", result.RecommendedMedication);
         }
 
+        /*[Test]
+        public void Fail()
+        {
+            Assert.IsFalse(true);
+        }*/
+        
         //write more tests
     }
 }
