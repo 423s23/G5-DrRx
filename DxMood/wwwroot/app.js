@@ -1,9 +1,17 @@
 const serviceURL = "http://localhost:5191";
 
+//Create patient page
 const diagnoseButton = document.getElementById("diagnose");
+const inputName = document.getElementById("inp-name");
+const inputDOB = document.getElementById("inp-dob");
+
+//Patient List Page
 const refreshPatientsButton = document.getElementById("refresh-patients-btn");
 const patientDiv = document.getElementById("patient-list");
+
+//Account Page
 const doctorName = document.getElementById("doctor-name");
+const numberPatients = document.getElementById("number-patients");
 
 let doctorID = "";
 
@@ -89,6 +97,7 @@ const createPatient = (firstname, lastname, DOB, doctorID ) => {
 if (diagnoseButton) {
     diagnoseButton.onclick = () => {
         createPatient("testfirst", "testlast", "1/23/2002", doctorID);
+        //createPatient(inputName, inputName, inputDOB, doctorID);
     };
 }
 
