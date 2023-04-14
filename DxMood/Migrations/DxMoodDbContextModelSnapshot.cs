@@ -105,17 +105,17 @@ namespace DxMood.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("ASRS")
+                    b.Property<int>("ASRS")
                         .HasColumnType("int");
 
                     b.Property<string>("Diagnosis")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("Gad7")
+                    b.Property<int>("Gad7")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Isi")
+                    b.Property<int>("Isi")
                         .HasColumnType("int");
 
                     b.Property<string>("Note")
@@ -125,7 +125,7 @@ namespace DxMood.Migrations
                     b.Property<Guid>("PatientId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("Phq9")
+                    b.Property<int>("Phq9")
                         .HasColumnType("int");
 
                     b.Property<string>("RecommendedMedication")
