@@ -157,6 +157,7 @@ const APIcreatePatient = (firstname, lastname, doctorID) => {
         .then((response) => {
             console.log(`POST patient`, response);
             let patientObject = response;
+            console.warn("!!!", patientObject.patienntID)
             APIcreateResult(patientObject.patientID, 0,0,0,12, "testing");
         })
         .catch((error) => console.error(error));
