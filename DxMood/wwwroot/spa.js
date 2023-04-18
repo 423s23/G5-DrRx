@@ -9,7 +9,7 @@ const accountPage = document.getElementById("account");
 
 let currentPage = pages[0];
 
-function changePage(page){
+function changePage(page) {
     currentPage = pages[page];
 
     loginPage.style.display = currentPage == "login" ? "flex" : "none";
@@ -17,7 +17,7 @@ function changePage(page){
     addpatientPage.style.display =
         currentPage == "addpatient" ? "flex" : "none";
     accountPage.style.display = currentPage == "account" ? "flex" : "none";
-};
+}
 
 changePage(0);
 
@@ -71,17 +71,26 @@ refreshPatientButton.onclick = (e) => {
 const doctorName = document.getElementById("doctor-name");
 const numberPatients = document.getElementById("number-patients");
 
-function updateDoctorName(lastname){
+function updateDoctorName(lastname) {
     doctorName.innerText = `Dr. ${lastname}'s profile`;
     numberPatients.innerText = `${patientList.length || 0} patients`;
-};
+}
 
-function signInDoctor (username, password){
+function updatePatientList(){
+
+    patientListAPI.forEach((patient)=>{
+        console.log(patient);
+    })
+
+    //updatePatientDiv();
+}
+
+function signInDoctor(username, password) {
     loginInfo.username = username;
     loginInfo.password = password;
     updateDoctorName(username);
-    APIsignInDoctor(username,password);
-};
+    APIsignInDoctor(username, password);
+}
 
 const diagnoseButton = document.getElementById("diagnose");
 const inputName = document.getElementById("inp-name");
@@ -92,17 +101,16 @@ diagnoseButton.onclick = (e) => {
     //createPatient("testfirst", "testlast", "1/23/2002", doctorID);
     addNewPatient(inputName.value, "MDD + Insomnia");
     updateDoctorName();
-    APIcreatePatient(inputName.value,inputName.value,doctorID);
+    APIcreatePatient(inputName.value, inputName.value, doctorID);
 };
 
 //API calls
 
 let doctorID = "";
 
-let doctorObject={
+let doctorObject = {};
 
-}
-
+let patientListAPI = [];
 
 const APIsignInDoctor = (username, password) => {
     let body = {
@@ -121,7 +129,7 @@ const APIsignInDoctor = (username, password) => {
             console.log(`POST doctor login`, response);
             doctorObject = response.data;
             doctorID = doctorObject.id;
-            updateDoctorName(doctorObject.lastName)
+            updateDoctorName(doctorObject.lastName);
         })
         .catch((error) => console.error(error));
 };
@@ -136,8 +144,8 @@ const APIcreatePatient = (firstname, lastname, doctorID) => {
             lastName: "string",
             firstName: "string",
             userName: "string",
-            password: "string"
-        }
+            password: "string",
+        },
     };
     axios
         .post(`${serviceURL}/patient`, body, {
@@ -147,6 +155,8 @@ const APIcreatePatient = (firstname, lastname, doctorID) => {
         })
         .then((response) => {
             console.log(`POST patient`, response);
+            let patientObject = response;
+            APIcreateResult(patientObject.patientID, 0,0,0,12, "testing");
         })
         .catch((error) => console.error(error));
 };
@@ -165,7 +175,46 @@ const APIgetDoctor = (doctorID) => {
             console.log(`GET doctor`, response);
             doctorObject = response.data;
             doctorID = doctorObject.id;
-            updateDoctorName(doctorObject.lastName)
+            patientListAPI = doctorObject.patients;
+            updateDoctorName(doctorObject.lastName);
+            updatePatientList();
+        })
+        .catch((error) => console.error(error));
+};
+
+const APIcreateResult = (patientID, phq9, gad7, isi, asrs, note) => {
+    let body = {
+        phq9: phq9,
+        gad7: gad7,
+        isi: isi,
+        asrs: asrs,
+        diagnosis: "string",
+        recommendedMedication: "string",
+        note: note,
+        patientId: patientID,
+        patient: {
+            lastName: "string",
+            firstName: "string",
+            doctor: {
+                lastName: "string",
+                firstName: "string",
+                userName: "string",
+                password: "string",
+            },
+        },
+    };
+    axios
+        .post(`${serviceURL}/result`, body, {
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+        .then((response) => {
+            console.log(`POST result`, response);
+            resultObject = response.data;
+            let diagnosis = resultObject.diagnosis;
+            APIgetDoctor(doctorID);
+            console.log(diagnosis)
         })
         .catch((error) => console.error(error));
 };
