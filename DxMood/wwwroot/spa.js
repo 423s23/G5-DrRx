@@ -150,3 +150,22 @@ const APIcreatePatient = (firstname, lastname, doctorID) => {
         })
         .catch((error) => console.error(error));
 };
+
+const APIgetDoctor = (doctorID) => {
+    let body = {
+        id: doctorID,
+    };
+    axios
+        .get(`${serviceURL}/doctor/id`, body, {
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+        .then((response) => {
+            console.log(`GET doctor`, response);
+            doctorObject = response.data;
+            doctorID = doctorObject.id;
+            updateDoctorName(doctorObject.lastName)
+        })
+        .catch((error) => console.error(error));
+};
