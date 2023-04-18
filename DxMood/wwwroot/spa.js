@@ -163,11 +163,9 @@ const APIcreatePatient = (firstname, lastname, doctorID) => {
 };
 
 const APIgetDoctor = (doctorID) => {
-    let body = {
-        id: doctorID,
-    };
+    let body = {};
     axios
-        .get(`${serviceURL}/doctor/id`, body, {
+        .get(`${serviceURL}/doctor/${doctorID}`, body, {
             headers: {
                 "Content-Type": "application/json",
             },
