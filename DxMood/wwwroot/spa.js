@@ -79,10 +79,10 @@ function updateDoctorName(lastname) {
 function updatePatientList(){
 
     patientListAPI.forEach((patient)=>{
-        console.log(patient);
+        addNewPatient(patient.firstName + patient.lastName, patient.results)
     })
 
-    //updatePatientDiv();
+    updatePatientDiv();
 }
 
 function signInDoctor(username, password) {
@@ -94,14 +94,20 @@ function signInDoctor(username, password) {
 
 const diagnoseButton = document.getElementById("diagnose");
 const inputName = document.getElementById("inp-name");
-const inputDOB = document.getElementById("inp-dob");
+const inputGAD = document.getElementById("inp-gad");
+const inputPHQ = document.getElementById("inp-phq");
+const inputINS = document.getElementById("inp-ins");
+const inputADHD = document.getElementById("inp-adhd");
 
 diagnoseButton.onclick = (e) => {
     e.preventDefault();
     //createPatient("testfirst", "testlast", "1/23/2002", doctorID);
-    addNewPatient(inputName.value, "MDD + Insomnia");
+    //addNewPatient(inputName.value, "MDD + Insomnia");
     updateDoctorName();
-    APIcreatePatient(inputName.value, inputName.value, doctorID);
+    const splitName = inputName.value.split(" ");
+    const firstName = splitName[0];
+    const lastName = splitName[1];
+    APIcreatePatient(firstName, lastName, doctorID);
     changePage(1); // Change to patient page
 };
 
@@ -157,7 +163,7 @@ const APIcreatePatient = (firstname, lastname, doctorID) => {
         .then((response) => {
             console.log(`POST patient`, response);
             let patientObject = response.data;
-            APIcreateResult(patientObject.id, 0,0,0,12, "testing");
+            APIcreateResult(patientObject.id, inputPHQ.value, inputGAD.value, inputINS.value, inputADHD.value, "testing123");
         })
         .catch((error) => console.error(error));
 };
