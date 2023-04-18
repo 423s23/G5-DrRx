@@ -38,21 +38,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.5, )"
             },
             "NUnit": {
               "target": "Package",
@@ -60,7 +64,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.2, )"
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
