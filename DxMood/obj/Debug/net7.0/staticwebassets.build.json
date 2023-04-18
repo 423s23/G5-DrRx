@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x0BP/ojDj+P8pTnFLt/LogN0F9Q9c7x2mdareZgza/w=",
+  "Hash": "fkZVMyApmDbdSEiy6Oc9o6xMny6fhd5C4xOqG6nbyQg=",
   "Source": "DxMood",
   "BasePath": "_content/DxMood",
   "Mode": "Default",
@@ -202,6 +202,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/redirectindex.js"
+    },
+    {
+      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/spa.css",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "spa.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/spa.css"
+    },
+    {
+      "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/spa.js",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "spa.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/spa.js"
     },
     {
       "Identity": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/styles.css",

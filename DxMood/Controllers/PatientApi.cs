@@ -108,7 +108,6 @@ namespace IO.Swagger.Controllers
 
             patient.LastName = body.LastName;
             patient.FirstName = body.FirstName;
-            patient.DateOfBirth = body.DateOfBirth;
             patient.DoctorId = body.DoctorId;
 
             await _dbContext.SaveChangesAsync();
@@ -133,6 +132,8 @@ namespace IO.Swagger.Controllers
 
             PatientDto patientDto = toPatientDto(body);
 
+            body.Doctor = patientDto.Doctor;
+
             await _dbContext.Patients.AddAsync(body);
             await _dbContext.SaveChangesAsync();
 
@@ -146,7 +147,6 @@ namespace IO.Swagger.Controllers
                 Id = patient.Id,
                 LastName = patient.LastName,
                 FirstName = patient.FirstName,
-                DateOfBirth = patient.DateOfBirth,
                 DoctorId = patient.DoctorId,
                 Results = new List<Result>(),
                 Notes = new List<Note>()

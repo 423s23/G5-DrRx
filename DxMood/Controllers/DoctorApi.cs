@@ -62,6 +62,25 @@ namespace IO.Swagger.Controllers
         }
 
         /// <summary>
+        /// gets the doctor with the specified id
+        /// </summary>
+        [HttpGet]
+        [Route("/doctor/{id}")]
+        [ValidateModelState]
+        public async Task<IActionResult> GetDoctor([FromRoute][Required]Guid id)
+        { 
+            Doctor? doctor = await _dbContext.Doctors.FindAsync(id);
+            if(doctor is null)
+            {
+                return NotFound();
+            }
+
+            DoctorDto doctorDto = toDoctorDto(doctor);
+
+            return Ok(doctorDto);
+        }
+
+        /// <summary>
         /// Update a Doctor
         /// </summary>
         /// <param name="id">id of doctor</param>
@@ -155,7 +174,6 @@ namespace IO.Swagger.Controllers
                 Id = patient.Id,
                 LastName = patient.LastName,
                 FirstName = patient.FirstName,
-                DateOfBirth = patient.DateOfBirth,
                 DoctorId = patient.DoctorId,
                 Results = new List<Result>(),
                 Notes = new List<Note>()

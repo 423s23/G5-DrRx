@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,32 +10,48 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="patients.css">
 </head>
+
 <body>
     <nav class="navbar">
-        <div class="logo"><li><a href="Patients.html">DxMood</a></li></div>
+        <div class="logo">
+            <li><a href="Patients.html">DxMood</a></li>
+        </div>
         <div class="menu">
-            <div class="button1"><li><a href="newPatient.html">New Patient</a></li></div>
-            <div class="button2"><li><a href="Patients.html">Patients</a></li></div>
-            <div class="button3"><li><a href="Account.html">Account</a></li></div>
+            <div class="button1">
+                <li><a href="newPatient.html">New Patient</a></li>
+            </div>
+            <div class="button2">
+                <li><a href="Patients.html">Patients</a></li>
+            </div>
+            <div class="button3">
+                <li><a href="Account.html">Account</a></li>
+            </div>
         </div>
     </nav>
     <main>
-        <h1>Patients</h1>
-        <p>Apple, Annie</p>
-        <p>Berry, Bob</p>
-        <p>Flinn, Kait</p>
-        <p>Ham, Hannah</p>
-        <p>Jingleheimer-Schmidt, John Jacob</p>
-        <p>Lime, Lucy</p>
-        <p>Nelson, Isabel</p>
-        <p>Pine, Penny</p>
-        <p>Smith, Sally</p>
-        <p>Thompson, Trey</p>
-        <p>Underwood, Brady</p>
+        <div class="flex">
+            <h1>Patients</h1>
+            <button id="refresh-patients-btn">⟳</button>
+        </div>
+        <div id="patient-list">
+            <p>Apple, Annie</p>
+            <p>Berry, Bob</p>
+            <p>Flinn, Kait</p>
+            <p>Ham, Hannah</p>
+            <p>Jingleheimer-Schmidt, John Jacob</p>
+            <p>Lime, Lucy</p>
+            <p>Nelson, Isabel</p>
+            <p>Pine, Penny</p>
+            <p>Smith, Sally</p>
+            <p>Thompson, Trey</p>
+            <p>Underwood, Brady</p>
+        </div>
     </main>
     <footer>
         <p id="footerSize">This is the footer</p>
     </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>

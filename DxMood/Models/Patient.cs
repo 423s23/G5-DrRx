@@ -48,13 +48,6 @@ namespace IO.Swagger.Models
         public string FirstName { get; set; }
 
         /// <summary>
-        /// Gets or Sets DateOfBirth
-        /// </summary>
-
-        [DataMember(Name="dateOfBirth")]
-        public DateTime DateOfBirth { get; set; }
-
-        /// <summary>
         /// Foreign Key
         /// </summary>
         [DataMember(Name="doctorId")]
@@ -77,7 +70,6 @@ namespace IO.Swagger.Models
             sb.Append("  Id: ").Append(Id).Append("\n");
             sb.Append("  LastName: ").Append(LastName).Append("\n");
             sb.Append("  FirstName: ").Append(FirstName).Append("\n");
-            sb.Append("  DateOfBirth: ").Append(DateOfBirth).Append("\n");
             sb.Append("  DoctorId: ").Append(DoctorId).Append("\n");
             sb.Append("  Doctor: ").Append(Doctor).Append("\n");
             sb.Append("}\n");
@@ -132,11 +124,6 @@ namespace IO.Swagger.Models
                     FirstName.Equals(other.FirstName)
                 ) && 
                 (
-                    DateOfBirth == other.DateOfBirth ||
-                    DateOfBirth != null &&
-                    DateOfBirth.Equals(other.DateOfBirth)
-                ) && 
-                (
                     DoctorId == other.DoctorId ||
                     DoctorId != null &&
                     DoctorId.Equals(other.DoctorId)
@@ -164,8 +151,6 @@ namespace IO.Swagger.Models
                     hashCode = hashCode * 59 + LastName.GetHashCode();
                     if (FirstName != null)
                     hashCode = hashCode * 59 + FirstName.GetHashCode();
-                    if (DateOfBirth != null)
-                    hashCode = hashCode * 59 + DateOfBirth.GetHashCode();
                     if (DoctorId != null)
                     hashCode = hashCode * 59 + DoctorId.GetHashCode();
                     if (Doctor != null)

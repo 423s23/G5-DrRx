@@ -45,6 +45,14 @@
       "PackagePath": "staticwebassets/redirectindex.js"
     },
     {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/spa.css",
+      "PackagePath": "staticwebassets/spa.css"
+    },
+    {
+      "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/spa.js",
+      "PackagePath": "staticwebassets/spa.js"
+    },
+    {
       "Id": "/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/wwwroot/styles.css",
       "PackagePath": "staticwebassets/styles.css"
     },

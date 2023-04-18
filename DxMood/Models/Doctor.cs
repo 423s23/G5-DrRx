@@ -37,25 +37,25 @@ namespace IO.Swagger.Models
         /// Gets or Sets LastName
         /// </summary>
         [DataMember(Name="lastName")]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         /// <summary>
         /// Gets or Sets FirstName
         /// </summary>
         [DataMember(Name="firstName")]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         /// <summary>
         /// Gets or Sets UserName
         /// </summary>
         [DataMember(Name="userName")]
-        public string UserName { get; set; }
+        public string? UserName { get; set; }
 
         /// <summary>
         /// Gets or Sets Password
         /// </summary>
         [DataMember(Name="password")]
-        public string Password { get; set; }
+        public string? Password { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
