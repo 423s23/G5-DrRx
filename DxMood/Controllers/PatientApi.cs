@@ -132,6 +132,8 @@ namespace IO.Swagger.Controllers
 
             PatientDto patientDto = toPatientDto(body);
 
+            body.Doctor = patientDto.Doctor;
+
             await _dbContext.Patients.AddAsync(body);
             await _dbContext.SaveChangesAsync();
 
