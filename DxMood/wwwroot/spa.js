@@ -102,6 +102,7 @@ diagnoseButton.onclick = (e) => {
     addNewPatient(inputName.value, "MDD + Insomnia");
     updateDoctorName();
     APIcreatePatient(inputName.value, inputName.value, doctorID);
+    changePage(1); // Change to patient page
 };
 
 //API calls
