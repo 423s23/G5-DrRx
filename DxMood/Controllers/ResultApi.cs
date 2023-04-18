@@ -119,7 +119,6 @@ namespace IO.Swagger.Controllers
             result.ASRS = body.ASRS;
             result.Diagnosis = body.Diagnosis;
             result.RecommendedMedication = body.RecommendedMedication;
-            result.ResultGenerated = body.ResultGenerated;
             result.Note = body.Note;
             result.PatientId = body.PatientId;
 
@@ -148,9 +147,17 @@ namespace IO.Swagger.Controllers
         { 
             body.Id = Guid.NewGuid();
             Patient? patientResults = await _dbContext.Patients.FindAsync(body.PatientId);
+            
             if(patientResults is not null) 
             {
                 body.Patient = patientResults;
+            }
+
+            Doctor? patientsDr = await _dbContext.Doctors.FindAsync(body.Patient.DoctorId);
+
+            if(patientsDr is not null) 
+            {
+                body.Patient.Doctor = patientsDr;
             }
 
             Result result = _dxMoodService.GetDiagnosis(body.Phq9, body.Gad7, body.Isi, body.ASRS);
