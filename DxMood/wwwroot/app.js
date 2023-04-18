@@ -148,5 +148,6 @@ if (doctorName && doctorObject?.lastname) {
     signInDoctor("username", "password");
 }
 
+createDoctor();
 
 //getPatients();
