@@ -76,13 +76,6 @@ namespace IO.Swagger.Models
         public string RecommendedMedication { get; set; }
 
         /// <summary>
-        /// Gets or Sets ResultGenerated
-        /// </summary>
-
-        [DataMember(Name="resultGenerated")]
-        public string ResultGenerated { get; set; }
-
-        /// <summary>
         /// Gets or Sets Note
         /// </summary>
 
@@ -118,7 +111,6 @@ namespace IO.Swagger.Models
             sb.Append("  ASRS: ").Append(ASRS).Append("\n");
             sb.Append("  Diagnosis: ").Append(Diagnosis).Append("\n");
             sb.Append("  RecommendedMedication: ").Append(RecommendedMedication).Append("\n");
-            sb.Append("  ResultGenerated: ").Append(ResultGenerated).Append("\n");
             sb.Append("  Note: ").Append(Note).Append("\n");
             sb.Append("  PatientId: ").Append(PatientId).Append("\n");
             sb.Append("  Patient: ").Append(Patient).Append("\n");
@@ -194,11 +186,6 @@ namespace IO.Swagger.Models
                     RecommendedMedication.Equals(other.RecommendedMedication)
                 ) && 
                 (
-                    ResultGenerated == other.ResultGenerated ||
-                    ResultGenerated != null &&
-                    ResultGenerated.Equals(other.ResultGenerated)
-                ) && 
-                (
                     Note == other.Note ||
                     Note != null &&
                     Note.Equals(other.Note)
@@ -239,8 +226,6 @@ namespace IO.Swagger.Models
                     hashCode = hashCode * 59 + Diagnosis.GetHashCode();
                     if (RecommendedMedication != null)
                     hashCode = hashCode * 59 + RecommendedMedication.GetHashCode();
-                    if (ResultGenerated != null)
-                    hashCode = hashCode * 59 + ResultGenerated.GetHashCode();
                     if (Note != null)
                     hashCode = hashCode * 59 + Note.GetHashCode();
                     if (PatientId != null)
