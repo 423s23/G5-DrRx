@@ -105,8 +105,8 @@ diagnoseButton.onclick = (e) => {
     //addNewPatient(inputName.value, "MDD + Insomnia");
     updateDoctorName();
     const splitName = inputName.value.split(" ");
-    const firstName = splitName[0];
-    const lastName = splitName[1];
+    const firstName = splitName[0] || "";
+    const lastName = splitName[1] || "";
     APIcreatePatient(firstName, lastName, doctorID);
     changePage(1); // Change to patient page
 };
