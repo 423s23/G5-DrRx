@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DxMood.Migrations
 {
     [DbContext(typeof(DxMoodDbContext))]
-    [Migration("20230418041211_removergeneratedresult")]
-    partial class removergeneratedresult
+    [Migration("20230425222046_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

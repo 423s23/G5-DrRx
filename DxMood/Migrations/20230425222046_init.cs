@@ -77,7 +77,6 @@ namespace DxMood.Migrations
                     ASRS = table.Column<int>(type: "int", nullable: false),
                     Diagnosis = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RecommendedMedication = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ResultGenerated = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Note = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PatientId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
