@@ -120,6 +120,7 @@ namespace IO.Swagger.Controllers
             result.Diagnosis = body.Diagnosis;
             result.RecommendedMedication = body.RecommendedMedication;
             result.Note = body.Note;
+            result.Date = body.Date;
             result.PatientId = body.PatientId;
 
             Patient? patientResults = await _dbContext.Patients.FindAsync(result.PatientId);
