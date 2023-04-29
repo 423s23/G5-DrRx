@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HHAUgLibqhVanc51Dd1hnfGU3XRBWErpxW24WE+Re2Y=",
+  "Hash": "8XW1oR1kcXsPl0o+S2vldjAIsPa7Odcpa8+MryepSco=",
   "Source": "DxMood",
   "BasePath": "_content/DxMood",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "DxMood\\wwwroot",
+      "Name": "DxMood/wwwroot",
       "Source": "DxMood",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\clipboard-copy-ca3f1c3c.svg",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/clipboard-copy-ca3f1c3c.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "assets/clipboard-copy-ca3f1c3c.svg",
       "AssetKind": "All",
@@ -31,13 +31,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\clipboard-copy-ca3f1c3c.svg"
+      "OriginalItemSpec": "wwwroot/assets/clipboard-copy-ca3f1c3c.svg"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\index-4d04e110.css",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/index-449f8d51.js",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
+      "BasePath": "_content/DxMood",
+      "RelativePath": "assets/index-449f8d51.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/index-449f8d51.js"
+    },
+    {
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/index-4d04e110.css",
+      "SourceId": "DxMood",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "assets/index-4d04e110.css",
       "AssetKind": "All",
@@ -48,30 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-4d04e110.css"
+      "OriginalItemSpec": "wwwroot/assets/index-4d04e110.css"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\index-90fa1717.js",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/layered-waves-haikei-2-c057b4de.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
-      "BasePath": "_content/DxMood",
-      "RelativePath": "assets/index-90fa1717.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-90fa1717.js"
-    },
-    {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\layered-waves-haikei-2-c057b4de.svg",
-      "SourceId": "DxMood",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "assets/layered-waves-haikei-2-c057b4de.svg",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\layered-waves-haikei-2-c057b4de.svg"
+      "OriginalItemSpec": "wwwroot/assets/layered-waves-haikei-2-c057b4de.svg"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\logo-temp-8953a123.png",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/logo-temp-8953a123.png",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "assets/logo-temp-8953a123.png",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\logo-temp-8953a123.png"
+      "OriginalItemSpec": "wwwroot/assets/logo-temp-8953a123.png"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\spinner-6d16d7e8.svg",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/spinner-6d16d7e8.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "assets/spinner-6d16d7e8.svg",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\spinner-6d16d7e8.svg"
+      "OriginalItemSpec": "wwwroot/assets/spinner-6d16d7e8.svg"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\success-3a638aa9.svg",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/success-3a638aa9.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "assets/success-3a638aa9.svg",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\success-3a638aa9.svg"
+      "OriginalItemSpec": "wwwroot/assets/success-3a638aa9.svg"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\trash-88613306.svg",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/trash-88613306.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "assets/trash-88613306.svg",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\trash-88613306.svg"
+      "OriginalItemSpec": "wwwroot/assets/trash-88613306.svg"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\index.html",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/index.html",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\vite.svg",
+      "Identity": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/vite.svg",
       "SourceId": "DxMood",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\",
+      "ContentRoot": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/",
       "BasePath": "_content/DxMood",
       "RelativePath": "vite.svg",
       "AssetKind": "All",
@@ -184,7 +184,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\vite.svg"
+      "OriginalItemSpec": "wwwroot/vite.svg"
     }
   ]
 }

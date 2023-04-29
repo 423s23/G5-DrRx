@@ -1,59 +1,59 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\clipboard-copy-ca3f1c3c.svg",
-      "PackagePath": "staticwebassets\\assets\\clipboard-copy-ca3f1c3c.svg"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/clipboard-copy-ca3f1c3c.svg",
+      "PackagePath": "staticwebassets/assets/clipboard-copy-ca3f1c3c.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\index-4d04e110.css",
-      "PackagePath": "staticwebassets\\assets\\index-4d04e110.css"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/index-449f8d51.js",
+      "PackagePath": "staticwebassets/assets/index-449f8d51.js"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\index-90fa1717.js",
-      "PackagePath": "staticwebassets\\assets\\index-90fa1717.js"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/index-4d04e110.css",
+      "PackagePath": "staticwebassets/assets/index-4d04e110.css"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\layered-waves-haikei-2-c057b4de.svg",
-      "PackagePath": "staticwebassets\\assets\\layered-waves-haikei-2-c057b4de.svg"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/layered-waves-haikei-2-c057b4de.svg",
+      "PackagePath": "staticwebassets/assets/layered-waves-haikei-2-c057b4de.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\logo-temp-8953a123.png",
-      "PackagePath": "staticwebassets\\assets\\logo-temp-8953a123.png"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/logo-temp-8953a123.png",
+      "PackagePath": "staticwebassets/assets/logo-temp-8953a123.png"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\spinner-6d16d7e8.svg",
-      "PackagePath": "staticwebassets\\assets\\spinner-6d16d7e8.svg"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/spinner-6d16d7e8.svg",
+      "PackagePath": "staticwebassets/assets/spinner-6d16d7e8.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\success-3a638aa9.svg",
-      "PackagePath": "staticwebassets\\assets\\success-3a638aa9.svg"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/success-3a638aa9.svg",
+      "PackagePath": "staticwebassets/assets/success-3a638aa9.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\trash-88613306.svg",
-      "PackagePath": "staticwebassets\\assets\\trash-88613306.svg"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/assets/trash-88613306.svg",
+      "PackagePath": "staticwebassets/assets/trash-88613306.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\vite.svg",
-      "PackagePath": "staticwebassets\\vite.svg"
+      "Id": "/Users/treythompson/Desktop/DxMoodMacSoftware/dxmood-bitk/DxMood/wwwroot/vite.svg",
+      "PackagePath": "staticwebassets/vite.svg"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DxMood.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.DxMood.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DxMood.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.DxMood.props",
       "PackagePath": "build\\DxMood.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DxMood.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.DxMood.props",
       "PackagePath": "buildMultiTargeting\\DxMood.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DxMood.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.DxMood.props",
       "PackagePath": "buildTransitive\\DxMood.props"
     }
   ],
