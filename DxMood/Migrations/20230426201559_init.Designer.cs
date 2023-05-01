@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DxMood.Migrations
 {
     [DbContext(typeof(DxMoodDbContext))]
-    [Migration("20230418041211_removergeneratedresult")]
-    partial class removergeneratedresult
+    [Migration("20230426201559_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,29 +46,6 @@ namespace DxMood.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Doctors");
-                });
-
-            modelBuilder.Entity("IO.Swagger.Models.Note", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("PatientId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PatientId");
-
-                    b.ToTable("Notes");
                 });
 
             modelBuilder.Entity("IO.Swagger.Models.Patient", b =>
@@ -104,6 +81,10 @@ namespace DxMood.Migrations
                     b.Property<int>("ASRS")
                         .HasColumnType("int");
 
+                    b.Property<string>("Date")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Diagnosis")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -133,17 +114,6 @@ namespace DxMood.Migrations
                     b.HasIndex("PatientId");
 
                     b.ToTable("Results");
-                });
-
-            modelBuilder.Entity("IO.Swagger.Models.Note", b =>
-                {
-                    b.HasOne("IO.Swagger.Models.Patient", "Patient")
-                        .WithMany()
-                        .HasForeignKey("PatientId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Patient");
                 });
 
             modelBuilder.Entity("IO.Swagger.Models.Patient", b =>

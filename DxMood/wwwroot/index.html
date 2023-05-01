@@ -1,128 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DXMood</title>
-    <meta name="description" content="Description">
-    <link rel="stylesheet" href="spa.css">
-</head>
-
-<body>
-    <section id="login">
-        <div class="center-v">
-            <h1>Login</h1>
-            <form>
-                <label>Username</label>
-                <input id="username">
-                <label>Password</label>
-                <input id="password" type="password">
-                <button id="login-button">Login</button>
-            </form>
-        </div>
-    </section>
-    <section id="patients">
-        <nav class="navbar">
-            <div class="logo">
-                <li><a href="javascript:void(0);" onclick="changePage(1);">DxMood</a></li>
-            </div>
-            <div class="menu">
-                <div class="button1">
-                    <li><a href="javascript:void(0);" onclick="changePage(2);">New Patient</a></li>
-                </div>
-                <div class="button2">
-                    <li><a href="javascript:void(0);" onclick="changePage(1);">Patients</a></li>
-                </div>
-                <div class="button3">
-                    <li><a href="javascript:void(0);" onclick="changePage(3);">Account</a></li>
-                </div>
-            </div>
-        </nav>
-        <div>
-            <div class="flex">
-                <h2>Patients</h1>
-                <button id="refresh-patients-btn">⟳</button>
-            </div>
-            <ul id="patient-list">
-            </ul>
-        </div>
-        <footer>
-            <p id="footerSize">This is the footer</p>
-        </footer>
-    </section>
-    <section id="addpatient">
-        <nav class="navbar">
-            <div class="logo">
-                <li><a href="javascript:void(0);" onclick="changePage(1);">DxMood</a></li>
-            </div>
-            <div class="menu">
-                <div class="button1">
-                    <li><a href="javascript:void(0);" onclick="changePage(2);">New Patient</a></li>
-                </div>
-                <div class="button2">
-                    <li><a href="javascript:void(0);" onclick="changePage(1);">Patients</a></li>
-                </div>
-                <div class="button3">
-                    <li><a href="javascript:void(0);" onclick="changePage(3);">Account</a></li>
-                </div>
-            </div>
-        </nav>
-        <div class="auto-overflow">
-            <form>
-                <h2>Add New Patient</h2>
-                <div class="flex flex-row">
-                    <div class="flex flex-col mx-4">
-                        <label>Patient Name: </label>
-                        <input id="inp-name" />
-                        <label>GAD-7 Results: </label>
-                        <input />
-                        <label>PHQ-9 Results: </label>
-                        <input />
-                        <label>Insomia Severity Results: </label>
-                        <input />
-                        <label>ADHD Results: </label>
-                        <input />
-                    </div>
-                </div>
-                <button id="diagnose">Diagnose</button>
-            </form>
-        </div>
-        <footer>
-            <p id="footerSize">This is the footer</p>
-        </footer>
-    </section>
-    <section id="account">
-        <nav class="navbar">
-            <div class="logo">
-                <li><a href="javascript:void(0);" onclick="changePage(1);">DxMood</a></li>
-            </div>
-            <div class="menu">
-                <div class="button1">
-                    <li><a href="javascript:void(0);" onclick="changePage(2);">New Patient</a></li>
-                </div>
-                <div class="button2">
-                    <li><a href="javascript:void(0);" onclick="changePage(1);">Patients</a></li>
-                </div>
-                <div class="button3">
-                    <li><a href="javascript:void(0);" onclick="changePage(3);">Account</a></li>
-                </div>
-            </div>
-        </nav>
-        <div>
-            <div class="image-container">
-                <img src="./imgs/el-doctor.svg" width="100"/>
-            </div>
-            <h2 id="doctor-name">Dr Bain's Profile</h2>
-            <p id="number-patients">11 patients</p>
-        </div>
-        <footer>
-            <p id="footerSize">This is the footer</p>
-        </footer>
-    </section>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="spa.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DxMood</title>
+    <script type="module" crossorigin src="/assets/index-c80b6c9e.js"></script>
+    <link rel="stylesheet" href="/assets/index-3e9317fa.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
 </html>

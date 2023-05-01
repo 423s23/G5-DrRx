@@ -83,6 +83,13 @@ namespace IO.Swagger.Models
         public string Note { get; set; }
 
         /// <summary>
+        /// Gets or Sets Note
+        /// </summary>
+
+        [DataMember(Name="date")]
+        public string Date { get; set; }
+
+        /// <summary>
         /// Gets or Sets PatientId
         /// </summary>
 

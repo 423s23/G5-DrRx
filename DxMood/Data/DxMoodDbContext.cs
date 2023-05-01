@@ -17,8 +17,6 @@ namespace DxMood.Data
         public DbSet<Patient> Patients { get; set; }
 
         public DbSet<Result> Results { get; set; }
-
-        public DbSet<Note> Notes { get; set; }
         
     }
 }
