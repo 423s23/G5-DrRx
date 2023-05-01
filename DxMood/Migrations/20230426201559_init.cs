@@ -47,26 +47,6 @@ namespace DxMood.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Notes",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Content = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    PatientId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Notes", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Notes_Patients_PatientId",
-                        column: x => x.PatientId,
-                        principalTable: "Patients",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Results",
                 columns: table => new
                 {
@@ -77,8 +57,8 @@ namespace DxMood.Migrations
                     ASRS = table.Column<int>(type: "int", nullable: false),
                     Diagnosis = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RecommendedMedication = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ResultGenerated = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Note = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Date = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PatientId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -91,11 +71,6 @@ namespace DxMood.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Notes_PatientId",
-                table: "Notes",
-                column: "PatientId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Patients_DoctorId",
@@ -111,9 +86,6 @@ namespace DxMood.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Notes");
-
             migrationBuilder.DropTable(
                 name: "Results");
 

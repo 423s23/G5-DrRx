@@ -33,11 +33,5 @@ namespace DxMood.Models {
         /// Gets or Sets Results
         /// </summary>
         public List<Result> Results { get; set; }
-
-        /// <summary>
-        /// Gets or Sets Notes
-        /// </summary>
-        public List<Note> Notes { get; set; }
-
   }
 }

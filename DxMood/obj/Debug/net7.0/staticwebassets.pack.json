@@ -1,60 +1,52 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\Account.html",
-      "PackagePath": "staticwebassets\\Account.html"
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\clipboard-copy-ca3f1c3c.svg",
+      "PackagePath": "staticwebassets\\assets\\clipboard-copy-ca3f1c3c.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\Patients.html",
-      "PackagePath": "staticwebassets\\Patients.html"
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\close-07fd681e.svg",
+      "PackagePath": "staticwebassets\\assets\\close-07fd681e.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\account.css",
-      "PackagePath": "staticwebassets\\account.css"
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\index-3e9317fa.css",
+      "PackagePath": "staticwebassets\\assets\\index-3e9317fa.css"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\app.js",
-      "PackagePath": "staticwebassets\\app.js"
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\index-6c445109.js",
+      "PackagePath": "staticwebassets\\assets\\index-6c445109.js"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\imgs\\el-doctor.svg",
-      "PackagePath": "staticwebassets\\imgs\\el-doctor.svg"
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\layered-waves-haikei-2-c057b4de.svg",
+      "PackagePath": "staticwebassets\\assets\\layered-waves-haikei-2-c057b4de.svg"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\imgs\\medical-case.png",
-      "PackagePath": "staticwebassets\\imgs\\medical-case.png"
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\logo-temp-8953a123.png",
+      "PackagePath": "staticwebassets\\assets\\logo-temp-8953a123.png"
+    },
+    {
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\search-e6a3138d.svg",
+      "PackagePath": "staticwebassets\\assets\\search-e6a3138d.svg"
+    },
+    {
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\spinner-6d16d7e8.svg",
+      "PackagePath": "staticwebassets\\assets\\spinner-6d16d7e8.svg"
+    },
+    {
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\success-3a638aa9.svg",
+      "PackagePath": "staticwebassets\\assets\\success-3a638aa9.svg"
+    },
+    {
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\assets\\trash-88613306.svg",
+      "PackagePath": "staticwebassets\\assets\\trash-88613306.svg"
     },
     {
       "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\newPatient.css",
-      "PackagePath": "staticwebassets\\newPatient.css"
-    },
-    {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\newPatient.html",
-      "PackagePath": "staticwebassets\\newPatient.html"
-    },
-    {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\patients.css",
-      "PackagePath": "staticwebassets\\patients.css"
-    },
-    {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\redirectindex.js",
-      "PackagePath": "staticwebassets\\redirectindex.js"
-    },
-    {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.css",
-      "PackagePath": "staticwebassets\\spa.css"
-    },
-    {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\spa.js",
-      "PackagePath": "staticwebassets\\spa.js"
-    },
-    {
-      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\styles.css",
-      "PackagePath": "staticwebassets\\styles.css"
+      "Id": "C:\\Users\\under\\OneDrive\\Desktop\\Web-Design\\Dxmood\\dxmood-bitk\\dxmood\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DxMood.Microsoft.AspNetCore.StaticWebAssets.props",
