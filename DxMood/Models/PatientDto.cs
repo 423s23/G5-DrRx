@@ -20,11 +20,6 @@ namespace DxMood.Models {
         public string FirstName { get; set; }
 
         /// <summary>
-        /// Gets or Sets DateOfBirth
-        /// </summary>
-        public DateTime DateOfBirth { get; set; }
-
-        /// <summary>
         /// Foreign Key
         /// </summary>
         public Guid DoctorId { get; set; }

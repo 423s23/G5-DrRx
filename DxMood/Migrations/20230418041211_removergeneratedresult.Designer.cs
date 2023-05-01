@@ -12,15 +12,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DxMood.Migrations
 {
     [DbContext(typeof(DxMoodDbContext))]
-    [Migration("20230303232304_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20230418041211_removergeneratedresult")]
+    partial class removergeneratedresult
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.3")
+                .HasAnnotation("ProductVersion", "7.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -32,19 +32,15 @@ namespace DxMood.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -81,9 +77,6 @@ namespace DxMood.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("datetime2");
-
                     b.Property<Guid>("DoctorId")
                         .HasColumnType("uniqueidentifier");
 
@@ -108,17 +101,17 @@ namespace DxMood.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("ASRS")
+                    b.Property<int>("ASRS")
                         .HasColumnType("int");
 
                     b.Property<string>("Diagnosis")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("Gad7")
+                    b.Property<int>("Gad7")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Isi")
+                    b.Property<int>("Isi")
                         .HasColumnType("int");
 
                     b.Property<string>("Note")
@@ -128,14 +121,10 @@ namespace DxMood.Migrations
                     b.Property<Guid>("PatientId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("Phq9")
+                    b.Property<int>("Phq9")
                         .HasColumnType("int");
 
                     b.Property<string>("RecommendedMedication")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ResultGenerated")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

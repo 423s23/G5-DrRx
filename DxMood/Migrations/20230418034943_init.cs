@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DxMood.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,10 +16,10 @@ namespace DxMood.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -33,7 +33,6 @@ namespace DxMood.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DoctorId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
@@ -72,10 +71,10 @@ namespace DxMood.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Phq9 = table.Column<int>(type: "int", nullable: true),
-                    Gad7 = table.Column<int>(type: "int", nullable: true),
-                    Isi = table.Column<int>(type: "int", nullable: true),
-                    ASRS = table.Column<int>(type: "int", nullable: true),
+                    Phq9 = table.Column<int>(type: "int", nullable: false),
+                    Gad7 = table.Column<int>(type: "int", nullable: false),
+                    Isi = table.Column<int>(type: "int", nullable: false),
+                    ASRS = table.Column<int>(type: "int", nullable: false),
                     Diagnosis = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     RecommendedMedication = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ResultGenerated = table.Column<string>(type: "nvarchar(max)", nullable: false),

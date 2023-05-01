@@ -4,6 +4,11 @@ main{
     overflow: auto;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 p{
     font-size: 18px;
     padding-bottom: 20px;;

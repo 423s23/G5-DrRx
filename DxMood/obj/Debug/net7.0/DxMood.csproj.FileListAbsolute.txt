@@ -77,3 +77,259 @@
 /Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/nunit.framework.dll
+<<<<<<< HEAD
+=======
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/appsettings.Development.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/appsettings.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/DxMood.staticwebassets.runtime.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/DxMood
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/DxMood.deps.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/DxMood.runtimeconfig.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/DxMood.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/DxMood.pdb
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Azure.Core.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Azure.Identity.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Humanizer.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/nunit.framework.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Swashbuckle.AspNetCore.Annotations.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.CodeDom.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.csproj.AssemblyReference.cache
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.AssemblyInfoInputs.cache
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.AssemblyInfo.cs
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.csproj.CoreCompileInputs.cache
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.MvcApplicationPartsAssemblyInfo.cs
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.MvcApplicationPartsAssemblyInfo.cache
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/staticwebassets/msbuild.DxMood.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/staticwebassets/msbuild.build.DxMood.props
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.DxMood.props
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.DxMood.props
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/staticwebassets.build.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/staticwebassets.development.json
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/scopedcss/bundle/DxMood.styles.css
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.csproj.CopyComplete
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/refint/DxMood.dll
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.pdb
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/DxMood.genruntimeconfig.cache
+/Users/kflinn/Desktop/dxmood-bitk/DxMood/obj/Debug/net7.0/ref/DxMood.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/Firebase.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/LiteDB.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Reactive.dll
+/Users/treythompson/Desktop/spring_2023/esof_423/dxmood-bitk/DxMood/bin/Debug/net7.0/System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\appsettings.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\DxMood.staticwebassets.runtime.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\DxMood.exe
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\DxMood.deps.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\DxMood.runtimeconfig.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\DxMood.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\DxMood.pdb
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Firebase.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\LiteDB.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\nunit.framework.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.csproj.AssemblyReference.cache
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.AssemblyInfoInputs.cache
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.AssemblyInfo.cs
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.csproj.CoreCompileInputs.cache
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\staticwebassets\msbuild.DxMood.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\staticwebassets\msbuild.build.DxMood.props
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DxMood.props
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DxMood.props
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\scopedcss\bundle\DxMood.styles.css
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.csproj.CopyComplete
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\refint\DxMood.dll
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.pdb
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\DxMood.genruntimeconfig.cache
+C:\Users\Trey T\Desktop\Repos\dxmood-bitk\DxMood\obj\Debug\net7.0\ref\DxMood.dll
+>>>>>>> db5c2102b2e0b15c74e93ad41546d5d96906df61
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\appsettings.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\DxMood.staticwebassets.runtime.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\DxMood.exe
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\DxMood.deps.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\DxMood.runtimeconfig.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\DxMood.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\DxMood.pdb
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Firebase.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Humanizer.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\LiteDB.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\nunit.framework.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Reactive.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.csproj.AssemblyReference.cache
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.AssemblyInfoInputs.cache
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.AssemblyInfo.cs
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.csproj.CoreCompileInputs.cache
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\staticwebassets\msbuild.DxMood.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\staticwebassets\msbuild.build.DxMood.props
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DxMood.props
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DxMood.props
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\scopedcss\bundle\DxMood.styles.css
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.csproj.CopyComplete
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\refint\DxMood.dll
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.pdb
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\DxMood.genruntimeconfig.cache
+C:\Users\under\OneDrive\Desktop\Web-Design\Dxmood\dxmood-bitk\dxmood\obj\Debug\net7.0\ref\DxMood.dll
