@@ -149,7 +149,6 @@ namespace IO.Swagger.Controllers
                 FirstName = patient.FirstName,
                 DoctorId = patient.DoctorId,
                 Results = new List<Result>(),
-                Notes = new List<Note>()
             };
 
             Doctor? patientsDr = _dbContext.Doctors.Find(patientDto.DoctorId);
@@ -167,14 +166,6 @@ namespace IO.Swagger.Controllers
                 if(r.PatientId == patientDto.Id)
                 {
                     patientDto.Results.Add(r);
-                }
-            }
-
-            foreach(Note n in _dbContext.Notes) 
-            {
-                if(n.PatientId == patientDto.Id)
-                {
-                    patientDto.Notes.Add(n);
                 }
             }
 
