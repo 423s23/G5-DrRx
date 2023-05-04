@@ -47,4 +47,8 @@ Initial Product was set up with a public database for presentation and testing p
     - Dotnet ef migrations add init
     
     - Dotnet ef database update
+    
+## Final Portfolio:
+
+https://docs.google.com/document/d/1B99rRKSG7Cw7UGMprrSnSH493GLlKasuvnVZqGIT9NU/edit?usp=sharing 
 
