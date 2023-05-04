@@ -1,4 +1,6 @@
 # DxMood
+https://dxmood.mystrikingly.com/  
+
 A diagnosis assistance and recording tool for doctors. 
 
 DXMood is a fullstack app with a C# .NET backend and an HTML and Javascript frontend
@@ -47,7 +49,4 @@ Initial Product was set up with a public database for presentation and testing p
     - Dotnet ef migrations add init
     
     - Dotnet ef database update
-    
-## Website
-https://dxmood.mystrikingly.com/ 
 
