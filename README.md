@@ -10,6 +10,8 @@ An API can be exposed at /swagger/index.html
 ## Install
 
 All you need to install for the project to work is the [.NET framework](https://dotnet.microsoft.com/en-us/download)
+
+**Ensure you have .NET 7 framework installed on your computer before attempting to run**
     
 ## Clone
 
